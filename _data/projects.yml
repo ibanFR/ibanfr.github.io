@@ -6,13 +6,13 @@
   img: /images/agile-development-model.png
   url: agile-development-model
 
-- name: Code Katas
+- name: Coding Katas
   desc: Collection of Java coding exercises for practicing and improving your programming skills.
   gh_user: ibanFR
   repo: coding-katas
   img: /images/code-kata.jpg
 
-- name: Cucumber showcase
+- name: Acceptance Testing with Cucumber
   desc: Showcase repository demonstrating the use of Cucumber for acceptance testing in a Behavior-Driven Development environment.
   gh_user: ibanFR
   repo: cucumberTest
