@@ -1,5 +1,12 @@
 # projects section data
 - name: Agile Software Development Model for efficient Product Feature Delivery
+  desc: Dynamic and iterative approach to delivering product features in a rapid and flexible manner.
   gh_user: ibanFR
   repo: agile-development-model
   img: /images/agile-development-model.png
+
+- name: Code Katas
+  desc: Collection of Java coding exercises for practicing and improving your programming skills.
+  gh_user: ibanFR
+  repo: coding-katas
+  img: /images/code-kata.jpg
