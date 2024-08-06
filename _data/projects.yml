@@ -1,12 +1,19 @@
 # projects section data
-- name: Agile Software Development Model for efficient Product Feature Delivery
+- name: Agile Software Development Model for Product Feature Delivery
   desc: Dynamic and iterative approach to delivering product features in a rapid and flexible manner.
   gh_user: ibanFR
   repo: agile-development-model
   img: /images/agile-development-model.png
+  url: agile-development-model
 
 - name: Code Katas
   desc: Collection of Java coding exercises for practicing and improving your programming skills.
   gh_user: ibanFR
   repo: coding-katas
   img: /images/code-kata.jpg
+
+- name: Cucumber showcase
+  desc: Showcase repository demonstrating the use of Cucumber for acceptance testing in a Behavior-Driven Development environment.
+  gh_user: ibanFR
+  repo: cucumberTest
+  img: /images/cucumber.png

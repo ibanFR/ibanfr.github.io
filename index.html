@@ -26,7 +26,9 @@ robots: noindex
             </div>
             {% endif %}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+              {% if project.url %}
               <a target="_blank" href="{{ site.url }}/{{ project.repo }}"><i class="fa-solid fa-link"></i></a>&emsp;&emsp;
+              {% endif %}
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/forks"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
