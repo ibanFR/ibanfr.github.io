@@ -1,0 +1,10 @@
+# projects section data
+- name: Agile Software Development Model for efficient Product Feature Delivery
+  gh_user: ibanFR
+  repo: agile-development-model
+  img: https://blog.zuehlke.cloud/wp-content/uploads/2024/04/AzureCostExportPAYG-Overview-945x293.png
+
+#- name: A regular rebuild and hosting of the TOR snowflake project (to provide access to censored websites)
+#  gh_user: tzuehlke
+#  repo: snowflake
+#  img: https://blog.zuehlke.cloud/wp-content/uploads/2023/05/snowflake-logs.png
