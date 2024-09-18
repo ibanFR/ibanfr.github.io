@@ -13,7 +13,13 @@
   img: /images/code-kata.jpg
 
 - name: Acceptance Testing with Cucumber
-  desc: Showcase repository demonstrating the use of Cucumber for acceptance testing in a Behavior-Driven Development environment.
+  desc: Showcase repository demonstrating the use of Cucumber for Acceptance Testing in a Behavior-Driven Development environment.
   gh_user: ibanFR
   repo: cucumberTest
   img: /images/cucumber.png
+
+- name: Domain-Driven Design with Jakarta EE
+  desc: This repository demonstrates an implementation of Domain-Driven Design (DDD) principles within a Jakarta EE environment. The project serves as a practical guide for building scalable, maintainable, and domain-focused applications using Jakarta EE's robust features.
+  gh_user: ibanFR
+  repo: basedao
+  img: /images/ddd.jpg
