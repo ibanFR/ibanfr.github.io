@@ -15,8 +15,9 @@
 - name: Acceptance Testing with Cucumber
   desc: Showcase repository demonstrating the use of Cucumber for Acceptance Testing in a Behavior-Driven Development environment.
   gh_user: ibanFR
-  repo: cucumberTest
+  repo: cucumber-demo
   img: /images/cucumber.png
+  url: cucumber-demo
 
 - name: Domain-Driven Design with Jakarta EE
   desc: This repository demonstrates an implementation of Domain-Driven Design (DDD) principles within a Jakarta EE environment. The project serves as a practical guide for building scalable, maintainable, and domain-focused applications using Jakarta EE's robust features.
