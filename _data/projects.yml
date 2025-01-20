@@ -11,6 +11,7 @@
   gh_user: ibanFR
   repo: coding-katas
   img: /images/code-kata.jpg
+  url: coding-katas
 
 - name: Acceptance Testing with Cucumber
   desc: Showcase repository demonstrating the use of Cucumber for Acceptance Testing in a Behavior-Driven Development environment.
