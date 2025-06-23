@@ -1,0 +1,16 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Guides"
+    url: /guides/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Posts"
+    url: /posts/
+  - title: "About"
+    url: /about/
+docs:
+  - title: Guides
+    children:
+      - title: "Quick-Start Guide"
+        url: /guides/mm-quick-start/
