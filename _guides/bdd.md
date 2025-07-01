@@ -1,5 +1,7 @@
 ---
 title: Behavior-Driven Development Guide
+header:
+  teaser: assets/images/bdd.png
 ---
 
 BDD is a way for software teams to work that closes the gap between business people and technical people by encouraging
