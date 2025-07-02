@@ -13,6 +13,6 @@ available in Github at [dddsample-core](https://github.com/citerus/dddsample-cor
 
 # Eclipse Cargo Tracker
 
-Sample application that demostrates DDD principles using Jakarta EE. The repository is available in Github at 
-[cargotracker/](https://github.com/eclipse-ee4j/cargotracker/)
+Sample application that demonstrates DDD principles using Jakarta EE. The repository is available in Github at 
+[cargotracker](https://github.com/eclipse-ee4j/cargotracker/)
 
