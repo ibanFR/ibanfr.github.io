@@ -97,6 +97,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  ddd:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 defaults:
@@ -134,6 +138,18 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _ddd
+  - scope:
+      path: ""
+      type: ddd
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav:
+          - ddd
+
 
 
 

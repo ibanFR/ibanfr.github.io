@@ -16,6 +16,7 @@ bdd:
         url: /guides/bdd/
 ddd:
   - title: Reference
+    url: /ddd/ddd-reference/
     children:
       - title: "Sample Repositories"
-        url: /guides/ddd/
+        url: /ddd/sample-repos/
