@@ -2,6 +2,10 @@
 title: Behavior-Driven Development Guide
 header:
   teaser: assets/images/bdd.png
+sidebar:
+    nav:
+      - bdd
+order: 1
 ---
 
 Software development process that helps to build a shared understanding of the business requirements through

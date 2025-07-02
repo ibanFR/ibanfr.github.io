@@ -9,8 +9,13 @@ main:
     url: /posts/
   - title: "About"
     url: /about/
-docs:
-  - title: Guides
+bdd:
+  - title: Explanation
     children:
       - title: "Quick-Start Guide"
-        url: /guides/mm-quick-start/
+        url: /guides/bdd/
+ddd:
+  - title: Reference
+    children:
+      - title: "Sample Repositories"
+        url: /guides/ddd/

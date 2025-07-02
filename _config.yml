@@ -126,9 +126,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
-      sidebar:
-        nav:
-          - docs
   # _portfolio
   - scope:
       path: ""
