@@ -6,7 +6,7 @@ This is a collection of sample repositories that demonstrate various aspects of 
 
 # DDD Sample
 
-The updated repository from Eric Evans' book *"Domain-Driven Design: Tackling Complexity in the Heart of Software"*.
+The updated repository from Eric Evans' book **"Domain-Driven Design: Tackling Complexity in the Heart of Software"**.
 
 {% linkpreview "https://github.com/citerus/dddsample-core/" %}
 
@@ -18,6 +18,14 @@ Sample application that demonstrates DDD principles using Jakarta EE.
 
 # IDDD Samples
 
-These are the sample Bounded Contexts from the book *"Implementing Domain-Driven Design"* by Vaughn Vernon:
+These are the sample Bounded Contexts from the book **"Implementing Domain-Driven Design"** by Vaughn Vernon:
 
 {% linkpreview "https://github.com/VaughnVernon/IDDD_Samples" %}
+
+# Lakeside Mutual
+
+Lakeside Mutual is a fictitious insurance company which serves as a sample application to demonstrate microservices and
+domain-driven design. It serves as case study for the book **"Patterns for API Design: Simplifying Integration with
+Loosely Coupled Message Exchanges"** by Olaf Zimmermann, Mirko Stocker, Daniel Lubke, Uwe Zdun, Cesare Pautasso
+
+{% linkpreview "https://github.com/Microservice-API-Patterns/LakesideMutual" %}
