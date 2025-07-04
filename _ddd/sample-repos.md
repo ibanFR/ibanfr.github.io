@@ -15,3 +15,9 @@ The updated repository from Eric Evans' book *"Domain-Driven Design: Tackling Co
 Sample application that demonstrates DDD principles using Jakarta EE.
 
 {% linkpreview "https://github.com/eclipse-ee4j/cargotracker/" %}
+
+# IDDD Samples
+
+These are the sample Bounded Contexts from the book *"Implementing Domain-Driven Design"* by Vaughn Vernon:
+
+{% linkpreview "https://github.com/VaughnVernon/IDDD_Samples" %}
