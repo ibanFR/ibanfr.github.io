@@ -22,6 +22,11 @@ These are the sample Bounded Contexts from the book **"Implementing Domain-Drive
 
 {% linkpreview "https://github.com/VaughnVernon/IDDD_Samples" %}
 
+# Blue Zone
+An example application implementing Hexagonal Architecture.
+
+{% linkpreview "https://github.com/jmgarridopaz/bluezone" %}
+
 # Lakeside Mutual
 
 Lakeside Mutual is a fictitious insurance company which serves as a sample application to demonstrate microservices and
