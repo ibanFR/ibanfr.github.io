@@ -16,7 +16,10 @@ bdd:
         url: /guides/bdd/
 ddd:
   - title: Reference
-    url: /ddd/ddd-reference/
+    url: /ddd/reference/ddd-reference/
     children:
+      - title: "Domain-Driven Design Starter Modelling Process"
+        url: /ddd/reference/ddd-starter/
       - title: "Sample Repositories"
-        url: /ddd/sample-repos/
+        url: /ddd/reference/sample-repos/
+
