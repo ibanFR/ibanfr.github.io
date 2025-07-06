@@ -15,11 +15,14 @@ bdd:
       - title: "Quick-Start Guide"
         url: /guides/bdd/
 ddd:
+  - title: Explanation
+    url: /ddd/explanation/ddd-explanation/
+    children:
+      - title: "Domain-Driven Design Starter Modelling Process"
+        url: /ddd/explanation/ddd-starter/
   - title: Reference
     url: /ddd/reference/ddd-reference/
     children:
-      - title: "Domain-Driven Design Starter Modelling Process"
-        url: /ddd/reference/ddd-starter/
       - title: "Sample Repositories"
         url: /ddd/reference/sample-repos/
 
