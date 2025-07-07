@@ -72,20 +72,35 @@ identification in recent years.
 
 ### Decompose
 
+How to decompose software systems into cohesive modules (or components and services) that are loosely coupled is one of
+the classic questions and challenges in software engineering. Achieving high cohesion within the services and loose
+coupling between them is crucial to keep the application scalable and maintainable.
+
 We decompose a large problem domain into sub-domains (loosely-coupled parts of the domain) for a few key reasons:
 
 - Reduced cognitive load, so that we can reason about parts of the domain independently.
-- Give development teams autonomy, so that they can work on separate parts of the solution
-- Identifying loose-coupling and high-cohesion in the domain which carries over to our software architecture and 
+- Identifying loose-coupling and high-cohesion in the domain which carries over to our software architecture and
   team structure.
+- Give development teams autonomy, so that they can work on separate parts of the solution
 
-How to decompose software systems into cohesive modules (or components and services) that are loosely coupled is one of the classic questions and challenges in software
-engineering. Achieving high cohesion within the services and loose coupling between them is crucial to keep the
-application scalable and maintainable.
+{% include figure popup=true image_path="/assets/images/ddd/decompose.png" alt="Opportunity Canvas image" %}
+
+## Strategy & Org Design
+
+Define sub-domains - parts of the domain you want to invest on - and the most suitable organisation design and team 
+structure.
 
 ### Strategize
 
+Strategically map out your sub-domains to identify core domains: the parts of the domain which have the greatest
+potential for business differentiation or strategic significance.
+
+{% linkpreview "https://vladikk.com/2018/01/26/revisiting-the-basics-of-ddd/" %}
+
 #### Core Domain Charts
+
+{% linkpreview "https://github.com/ddd-crew/core-domain-charts" %}
+
 
 
 
