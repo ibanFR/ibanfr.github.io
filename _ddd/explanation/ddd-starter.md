@@ -73,8 +73,10 @@ identification in recent years.
 ### Decompose
 
 How to decompose software systems into cohesive modules (or components and services) that are loosely coupled is one of
-the classic questions and challenges in software engineering. Achieving high cohesion within the services and loose
-coupling between them is crucial to keep the application scalable and maintainable.
+the classic questions and challenges in software engineering. 
+
+Achieving high cohesion within the services and loose coupling between them is crucial to keep the application scalable
+and maintainable.
 
 We decompose a large problem domain into sub-domains (loosely-coupled parts of the domain) for a few key reasons:
 
