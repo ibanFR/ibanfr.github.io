@@ -74,16 +74,18 @@ identification in recent years.
 
 We decompose a large problem domain into sub-domains (loosely-coupled parts of the domain) for a few key reasons:
 
-- reduced cognitive load, so that we can reason about parts of the domain independently.
-- give development teams autonomy, so that they can work on separate parts of the solution
-- identifying loose-coupling and high-cohesion in the domain which carries over to our software architecture and team structure.
+- Reduced cognitive load, so that we can reason about parts of the domain independently.
+- Give development teams autonomy, so that they can work on separate parts of the solution
+- Identifying loose-coupling and high-cohesion in the domain which carries over to our software architecture and 
+  team structure.
 
 How to decompose software systems into cohesive modules (or components and services) that are loosely coupled is one of the classic questions and challenges in software
 engineering. Achieving high cohesion within the services and loose coupling between them is crucial to keep the
 application scalable and maintainable.
 
 ### Strategize
-Core Domain Charts
+
+#### Core Domain Charts
 
 
 
