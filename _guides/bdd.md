@@ -1,7 +1,7 @@
 ---
 title: Behavior-Driven Development Guide
 header:
-  teaser: assets/images/bdd.png
+  teaser: assets/images/bdd/bdd.png
 sidebar:
     nav:
       - bdd
@@ -13,3 +13,5 @@ collaboration between domain experts and software engineers.
 
 BDD is a way for software teams to work that closes the gap between business people and technical people by encouraging
 collaboration across roles to build a shared understanding of the problem to be solved.
+
+{% include figure popup=true image_path="/assets/images/bdd/bdd.png" alt="DDD Guide image" %}
