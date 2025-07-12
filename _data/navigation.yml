@@ -11,9 +11,10 @@ main:
     url: /about/
 bdd:
   - title: Explanation
+    url: /guides/bdd/
     children:
-      - title: "Quick-Start Guide"
-        url: /guides/bdd/
+      - title: "Discovery"
+        url: /bdd/explanation/discovery/
 ddd:
   - title: Explanation
     url: /ddd/explanation/ddd-explanation/

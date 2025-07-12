@@ -103,6 +103,9 @@ collections:
   ddd:
     output: true
     permalink: /:collection/:path/
+  bdd:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -153,6 +156,18 @@ defaults:
       sidebar:
         nav:
           - ddd
+  # _bdd
+  - scope:
+      path: ""
+      type: bdd
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - bdd
 
 
 
