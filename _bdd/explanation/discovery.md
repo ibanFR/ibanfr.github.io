@@ -2,7 +2,7 @@
 title: Discovery Workshops
 ---
 
-Check cucumber workshop for an introduction to Discovery Workshops.
+Check Cucumber website for an introduction to Discovery Workshops.
 
 {% linkpreview "https://cucumber.io/docs/bdd/discovery-workshop" %}
 
