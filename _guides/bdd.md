@@ -16,6 +16,8 @@ collaboration across roles to build a shared understanding of the problem to be 
 
 {% include figure popup=true image_path="/assets/images/bdd/bdd.png" alt="DDD Guide image" %}
 
+[Access the Guide](https://ibanfr.github.io/bdd-guide/){: .btn .btn--primary .btn--x-large}
+
 For more information on BDD, check out the Cucumber website:
 
 {% linkpreview "https://cucumber.io/docs/bdd/" %}
