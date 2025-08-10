@@ -13,6 +13,8 @@ bdd:
   - title: Explanation
     url: /guides/bdd/
     children:
+      - title: "User Stories"
+        url: /bdd/explanation/story/
       - title: "Discovery"
         url: /bdd/explanation/discovery/
       - title: "Formulation"
