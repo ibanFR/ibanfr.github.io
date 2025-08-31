@@ -10,4 +10,6 @@ technical and non-technical stakeholders.
 
 {% include figure popup=true image_path="/assets/images/bdd/user-story.png" alt="User Story" %}
 
+## Other Resources
+
 See Cucumber website for more details on [User Stories](https://cucumber.io/docs/terms/user-story).
