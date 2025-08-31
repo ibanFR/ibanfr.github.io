@@ -2,6 +2,9 @@
 title: Extreme Programming Guide
 header:
   teaser: assets/images/xp/xp-book.png
+sidebar:
+  nav:
+    - xp
 order: 3
 ---
 

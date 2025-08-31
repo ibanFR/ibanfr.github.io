@@ -30,4 +30,7 @@ ddd:
     children:
       - title: "Sample Repositories"
         url: /ddd/reference/sample-repos/
+xp:
+  - title: Explanation
+    url: /guides/xp/
 
