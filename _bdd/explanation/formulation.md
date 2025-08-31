@@ -24,6 +24,10 @@ See also
 
 {% linkpreview "https://cucumber.io/blog/bdd/keep-your-scenarios-brief/" %}
 
+See more details in the following webinar by Gaspar Nagy, creator of Specflow:
+
+{% include video id="awwFfCYoGFQ" provider="youtube" %}
+
 ## Use a declarative style
 
 {% linkpreview "https://cucumber.io/docs/bdd/better-gherkin/" %}
