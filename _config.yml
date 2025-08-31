@@ -106,6 +106,9 @@ collections:
   bdd:
     output: true
     permalink: /:collection/:path/
+  xp:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -168,6 +171,18 @@ defaults:
       sidebar:
         nav:
           - bdd
+  # _xp
+  - scope:
+      path: ""
+      type: xp
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - xp
 
 
 
