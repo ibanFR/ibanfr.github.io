@@ -29,7 +29,7 @@ portfolio item in the `_portfolio` collection.
 ---
 title: Agile Development Model
 header:
-    teaser: assets/images/agile-development-model.png
+    teaser: assets/images/agile/agile-containers.png
 ---
 ```
 I'd like to understand the recommended size for these images. Currently, the image as an style of `overflow: hidden;` which means that the image will be cropped to fit the container. 
