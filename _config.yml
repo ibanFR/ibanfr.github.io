@@ -109,6 +109,9 @@ collections:
   xp:
     output: true
     permalink: /:collection/:path/
+  lean:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -183,6 +186,18 @@ defaults:
       sidebar:
         nav:
           - xp
+  # _lean
+  - scope:
+      path: ""
+      type: lean
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - lean
 
 
 
