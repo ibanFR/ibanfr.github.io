@@ -36,3 +36,8 @@ xp:
   - title: Reference
     url: /xp/reference/xp-reference/
 
+lean:
+    - title: Explanation
+      url: /guides/lean/
+
+
