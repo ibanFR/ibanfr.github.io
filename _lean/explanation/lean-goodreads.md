@@ -11,15 +11,16 @@ world of software development, and show how they can serve as the foundation for
 Along the way, they introduce 22 "thinking tools" that can help you customize the right agile practices for any
 environment.
 
-{% include figure popup=true image_path="/assets/images/lean/lean-agile-toolkit.jpeg" alt="Lean Software Development Book Cover" %}
+{% include figure popup=true image_path="/assets/images/lean/lean-agile-toolkit.jpeg" alt="Lean Software Development
+Book Cover" %}
 
 ## Implementing Lean Software Development: From Concept to Cash (2006)
 
 This remarkable book combines practical advice, ready-to-use techniques, anda deep understanding of why this is the
 right way to develop software.
 
-{% include figure popup=true image_path="/assets/images/lean/implementing-lean.jpeg" alt="Lean Software Development
-Book Cover" %}
+{% include figure popup=true image_path="/assets/images/lean/implementing-lean.jpeg" alt="Lean Software Development Book
+Cover" %}
 
 ## Leading Lean Software Development: Results Are not the Point (2009)
 
@@ -34,4 +35,14 @@ powerful new ways to act as competency leader, product champion, improvement men
 visionary.
 
 {% include figure popup=true image_path="/assets/images/lean/leading-lean.jpeg" alt="Lean Software Development Book
+Cover" %}
+
+## The Lean Mindset: Ask the Right Questions (2013)
+
+The Lean Mindset shows how lean companies really work-and how a lean mindset is the key to creating stunning products
+and delivering amazing services. Through cutting-edge research and case studies from leading organizations, including
+Spotify, Ericsson, Intuit, GE Healthcare, Pixar, CareerBuilder, and Intel, you'll discover proven patterns for
+developing that mindset.
+
+{% include figure popup=true image_path="/assets/images/lean/lean-mindset.jpeg" alt="Lean Software Development Book
 Cover" %}
