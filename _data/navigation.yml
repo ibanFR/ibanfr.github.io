@@ -42,5 +42,7 @@ lean:
       children:
         - title: "Lean Goodreads"
           url: /lean/explanation/lean-goodreads/
+        - title: "Value"
+          url: /lean/explanation/value/
 
 
