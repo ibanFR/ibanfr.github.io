@@ -35,6 +35,9 @@ xp:
     url: /guides/xp/
   - title: Tutorials
     url: /xp/tutorials/xp-tutorials/
+    children:
+      - title: "Refactoring Legacy Code"
+        url: /xp/tutorials/refactoring-legacy-code/
   - title: Reference
     url: /xp/reference/xp-reference/
 
