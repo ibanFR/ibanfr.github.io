@@ -30,6 +30,9 @@ Enroll for free to create an account and access the Refactoring Legacy Code tuto
 {% include figure popup=true image_path="assets/images/xp/tutorials/501-Refactoring-Legacy-Code-Video-Tutorial.png" 
 alt="Enroll to Refactoring Legacy Code screenshot" caption="Enroll to Refactoring Legacy Code Tutorial" %}
 
+The Continuous Delivery Training leaves your enrollment active for 1 month, which is usually enough time to complete the
+tutorial.
+
 ## GitHub Repository
 
 The code examples for the tutorial are available on GitHub as a template repository:
