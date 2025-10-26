@@ -33,6 +33,9 @@ ddd:
 xp:
   - title: Explanation
     url: /guides/xp/
+    children:
+      - title: "Extreme Programming Goodreads"
+        url: /xp/explanation/xp-goodreads/
   - title: Tutorials
     url: /xp/tutorials/xp-tutorials/
     children:
