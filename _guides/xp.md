@@ -1,7 +1,7 @@
 ---
 title: Extreme Programming Guide
 header:
-  teaser: assets/images/xp/xp-book.png
+  teaser: assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png
 sidebar:
   nav:
     - xp
@@ -16,6 +16,6 @@ improves productivity and introduces checkpoints at which new customer requireme
 Developers work together in pairs and as a group, with simple design and obsessively tested code, improving the design
 continually to keep it always just right for the current needs.
 
-{% include figure popup=true image_path="/assets/images/xp/xp-book.png" alt="XP Guide image" %}
+{% include figure popup=true image_path="assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png" alt="XP Guide image" %}
 
 
