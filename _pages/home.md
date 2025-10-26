@@ -7,7 +7,7 @@ header:
     actions:
       - label: "About Me"
         url: "/about/"
-excerpt: "Here you can find information about my projects, interests, and more."
+excerpt: "Here you can find information about my projects, software development guides, and more."
 intro:
   - excerpt: "Hi there 👋 I'm Iván Fernández 👀—a passionate software engineer 💻 dedicated to fostering a safe environment 🌱 that encourages creative thinking 💡 and continuous learning."
 feature_row:
