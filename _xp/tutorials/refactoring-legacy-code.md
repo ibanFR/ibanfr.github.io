@@ -36,8 +36,9 @@ The code examples for the tutorial are available on GitHub as a template reposit
 
 {% linkpreview "https://github.com/davef77/RefactoringBadCode" %}
 
-You can generate a new repository with the same directory structure and files as the template. See GitHub's
-documentation on [Creating a repository from a template].
+You can generate a new repository with the same directory structure and files as the template. 
+
+See GitHub's documentation for [Creating a repository from a template].
 
 
 [Continuous Delivery Training]: https://courses.cd.training/
