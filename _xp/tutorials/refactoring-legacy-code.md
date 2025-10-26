@@ -15,13 +15,13 @@ Continuous Integration, Continuous Delivery, DevOps, and Agile methodologies.
 Their courses are designed to help developers and teams improve their skills and adopt best practices in software
 development.
 
-{% linkpreview "https://courses.cd.training/" %}
+{% linkpreview "https://courses.cd.training" %}
 
 ## Sign up and access the tutorial
 
 Navigate to the list of courses and select the Refactoring Legacy Code tutorial.
 
-{% linkpreview "https://courses.cd.training/courses/refactoring-tutorial" %}
+{% linkpreview "https://courses.cd.training/courses/refactoring-tutorial/" %}
 
 The course includes 5 lessons, providing 1 hour of practical video content.
 
