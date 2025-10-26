@@ -33,6 +33,8 @@ ddd:
 xp:
   - title: Explanation
     url: /guides/xp/
+  - title: Tutorials
+    url: /xp/tutorials/xp-tutorials/
   - title: Reference
     url: /xp/reference/xp-reference/
 
