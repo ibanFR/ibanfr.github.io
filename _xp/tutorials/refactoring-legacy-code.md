@@ -95,10 +95,10 @@ slightly (from ~85% to ~89%).
 
 ### Summary & Key Lessons
 
-- Approval Testing provides a strong safety net for refactoring legacy code without changing behavior.
-- Removing Clutter improves readability, reduces noise, and clarifies structure.
-- Version Control is essential for maintaining stability through small, incremental changes.
-- Work in Tiny Steps: Commit after each successful test to maintain a safe rollback point.
+- **Approval Testing provides a strong safety net** for refactoring legacy code without changing behavior.
+- **Removing Clutter improves readability**, reduces noise, and clarifies structure.
+- **Version Control is essential** for maintaining stability through small, incremental changes.
+- **Work in Tiny Steps**: Commit after each successful test to maintain a safe rollback point.
 
 ## Part 2: Reducing Complexity and Composing Methods
 
@@ -140,9 +140,12 @@ This makes the method self-documenting. You no longer need verbose comments — 
 
 ### Summary & Key Lessons
 
-By focusing on reducing complexity and composing clear methods, you make legacy code more approachable, maintainable,
-and easier to evolve. As Dave Farley reminds us, good refactoring isn’t about big rewrites — it’s about safe,
-incremental progress that continually improves your codebase.
+- **Reduce cyclomatic complexity** by extracting methods and naming them clearly.
+- **Use small, safe steps** — refactor incrementally and test often.
+- **Leverage simple refactorings** like Rename and Extract Method for big impact.
+- **Compose methods to tell a story** — make your code self-documenting.
+- **Leave the code better than you found it** every time you make a change.
+- **Aim for progress, not perfection** — good refactoring is incremental, not revolutionary.
 
 ## Part 3: Refactoring to Testability
 
