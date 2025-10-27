@@ -106,14 +106,49 @@ slightly (from ~85% to ~89%).
 
 ### Reducing Complexity
 
+Once you’ve cleared away obvious clutter, focus on reducing cyclomatic complexity — the number of paths through your
+code. Deeply nested loops and conditionals often signal that your code is too complex.
+
+The key technique here is **Extract Method**. Identify related blocks of code, give them descriptive names, and move
+them into their own methods. This helps clarify intent and makes the code easier to reason about.
+
+For example:
+
+- A block setting up a document node becomes `getNode()`.
+- A loop processing elements becomes `processElements()`.
+
+Each extraction simplifies the main method, turning tangled logic into a sequence of clear steps.
+
+Always run your tests after each change to ensure stability.
+
+Refactoring is about small, reversible improvements. After every working change, commit your code. Even if you stop
+early, the code should already be in a better state. Follow the *Boy Scout Rule: leave the code cleaner than you found
+it.*
+
+Two refactorings will carry you far: **Rename** and **Extract Method**. They’re simple, safe, and powerful.
+
 ### Composing Methods
+
+Once complexity is reduced, focus on composing methods — organizing them so that each one clearly describes what it
+does. For instance, a `getJsonForDoc()` method might have three clear steps:
+
+1. Get the node to parse.
+2. Process each element.
+3. Close the JSON string.
+
+This makes the method self-documenting. You no longer need verbose comments — the structure and names tell the story.
+
+### Summary & Key Lessons
+
+By focusing on reducing complexity and composing clear methods, you make legacy code more approachable, maintainable,
+and easier to evolve. As Dave Farley reminds us, good refactoring isn’t about big rewrites — it’s about safe,
+incremental progress that continually improves your codebase.
 
 ## Part 3: Refactoring to Testability
 
 {% include video id="3iirETgRaRc" provider="youtube" %}
 
 ### Refactoring to Testability
-
 
 [Continuous Delivery Training]: https://courses.cd.training/
 [Creating a repository from a template]:https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
