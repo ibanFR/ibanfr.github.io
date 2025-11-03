@@ -115,7 +115,8 @@ them into their own methods. This helps clarify intent and makes the code easier
 For example:
 
 - A block setting up a document node becomes `getNode()`.
-- A loop processing elements becomes `processElements()`.
+- A loop processing elements becomes `processElement()`.
+- A block closing the JSON string becomes `closeJson()`.
 
 Each extraction simplifies the main method, turning tangled logic into a sequence of clear steps.
 
@@ -152,6 +153,13 @@ This makes the method self-documenting. You no longer need verbose comments — 
 {% include video id="3iirETgRaRc" provider="youtube" %}
 
 ### Refactoring to Testability
+
+This episode concludes the series on refactoring legacy code. Earlier parts covered the first three steps of his 
+four-step process: removing clutter, reducing cyclomatic complexity, and composing methods. The final step takes these
+improvements further by introducing automated tests — and seeing how they immediately surface hidden bugs.
+
+Dave begins by introducing some further refactorings to `processElement(String, Element)` method to improve testability.
+
 
 [Continuous Delivery Training]: https://courses.cd.training/
 [Creating a repository from a template]:https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
