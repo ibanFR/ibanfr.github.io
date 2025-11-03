@@ -15,13 +15,9 @@ Continuous Integration, Continuous Delivery, DevOps, and Agile methodologies.
 Their courses are designed to help developers and teams improve their skills and adopt best practices in software
 development.
 
-{% linkpreview "https://courses.cd.training" %}
-
 ## Sign up and access the tutorial
 
-Navigate to the list of courses and select the Refactoring Legacy Code tutorial.
-
-{% linkpreview "https://courses.cd.training/courses/refactoring-tutorial/" %}
+Navigate to the list of courses and select the [Refactoring Legacy Code tutorial].
 
 The course includes 5 lessons, providing 1 hour of practical video content.
 
@@ -162,6 +158,7 @@ Dave begins by introducing some further refactorings to `processElement(String, 
 
 
 [Continuous Delivery Training]: https://courses.cd.training/
+[Refactoring Legacy Code tutorial]:https://courses.cd.training/courses/refactoring-tutorial/
 [Creating a repository from a template]:https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
 [Extract Method]:https://refactoring.com/catalog/extractFunction.html
 
