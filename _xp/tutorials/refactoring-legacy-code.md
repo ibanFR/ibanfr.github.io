@@ -109,7 +109,7 @@ slightly (from ~85% to ~89%).
 Once you’ve cleared away obvious clutter, focus on reducing cyclomatic complexity — the number of paths through your
 code. Deeply nested loops and conditionals often signal that your code is too complex.
 
-The key technique here is **Extract Method**. Identify related blocks of code, give them descriptive names, and move
+The key technique here is [Extract Method]. Identify related blocks of code, give them descriptive names, and move
 them into their own methods. This helps clarify intent and makes the code easier to reason about.
 
 For example:
@@ -163,6 +163,7 @@ Dave begins by introducing some further refactorings to `processElement(String, 
 
 [Continuous Delivery Training]: https://courses.cd.training/
 [Creating a repository from a template]:https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
+[Extract Method]:https://refactoring.com/catalog/extractFunction.html
 
 
 
