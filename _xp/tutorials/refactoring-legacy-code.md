@@ -85,15 +85,20 @@ The first step in refactoring is cleaning up unnecessary code and comments:
 - Simplify variable names: Rename variables to be self-explanatory (e.g., `url` → `urlToTOC`).
 - Extract small methods: For clarity, such as converting inline logic into helper methods (e.g., `hasChildren()`).
 
-After cleaning up, he reruns the approval tests – confirming everything still works. Code coverage even improves
-slightly (from ~85% to ~89%).
-
-### Summary & Key Lessons
+{% capture notice-text %}
 
 - **Approval Testing provides a strong safety net** for refactoring legacy code without changing behavior.
 - **Removing Clutter improves readability**, reduces noise, and clarifies structure.
 - **Version Control is essential** for maintaining stability through small, incremental changes.
 - **Work in Tiny Steps**: Commit after each successful test to maintain a safe rollback point.
+
+{% endcapture %}
+
+<div class="notice--info">
+  <h4 class="no_toc">Summary & Key Lessons:</h4>
+  {{ notice-text | markdownify }}
+</div>
+
 
 ## Part 2: Reducing Complexity and Composing Methods
 
