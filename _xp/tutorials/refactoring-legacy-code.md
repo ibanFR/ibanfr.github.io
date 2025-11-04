@@ -73,9 +73,6 @@ Dave demonstrates:
 - Using sample input data based on comments in the original code.
 - Running the test to confirm expected behavior.
 
-Afterward, he checks code coverage – achieving ~66% method coverage and ~85% line coverage, which he considers
-sufficient to proceed with cautious refactoring.
-
 ### Removing Clutter
 
 The first step in refactoring is cleaning up unnecessary code and comments:
@@ -84,6 +81,12 @@ The first step in refactoring is cleaning up unnecessary code and comments:
 - Remove dead code: Unused or commented-out sections.
 - Simplify variable names: Rename variables to be self-explanatory (e.g., `url` → `urlToTOC`).
 - Extract small methods: For clarity, such as converting inline logic into helper methods (e.g., `hasChildren()`).
+
+Always run your tests after each change to ensure stability. This practice helps catch regressions early, confirms that
+refactoring has not altered expected behavior, and provides confidence to proceed with further improvements.
+
+Automated tests act as a safety net, allowing you to make incremental changes and quickly identify issues, making the
+refactoring process safer and more efficient.
 
 {% capture notice-text %}
 
@@ -109,10 +112,10 @@ The first step in refactoring is cleaning up unnecessary code and comments:
 Once you’ve cleared away obvious clutter, focus on reducing cyclomatic complexity — the number of paths through your
 code. Deeply nested loops and conditionals often signal that your code is too complex.
 
-The key technique here is [Extract Method]. Identify related blocks of code, give them descriptive names, and move
-them into their own methods. This helps clarify intent and makes the code easier to reason about.
+The key technique here is [Extract Method]. Identify related blocks of code, move them into their own methods, and give
+those methods descriptive names.
 
-For example:
+This helps clarify intent and makes the code easier to reason about. For example:
 
 - A block setting up a document node becomes `getNode()`.
 - A loop processing elements becomes `processElement()`.
@@ -120,18 +123,18 @@ For example:
 
 Each extraction simplifies the main method, turning tangled logic into a sequence of clear steps.
 
-Always run your tests after each change to ensure stability.
-
 Refactoring is about small, reversible improvements. After every working change, commit your code. Even if you stop
-early, the code should already be in a better state. Follow the *Boy Scout Rule: leave the code cleaner than you found
-it.*
+early, the code should already be in a better state. 
 
-Two refactorings will carry you far: **Rename** and **Extract Method**. They’re simple, safe, and powerful.
+**Follow the Boy Scout Rule:** leave the code cleaner than you found it.
+{: .notice--warning}
 
 ### Composing Methods
 
 Once complexity is reduced, focus on composing methods — organizing them so that each one clearly describes what it
-does. For instance, a `getJsonForDoc()` method might have three clear steps:
+does. 
+
+For instance, a `getJsonForDoc()` method might have three clear steps:
 
 1. Get the node to parse.
 2. Process each element.
@@ -139,7 +142,7 @@ does. For instance, a `getJsonForDoc()` method might have three clear steps:
 
 This makes the method self-documenting. You no longer need verbose comments — the structure and names tell the story.
 
-### Summary & Key Lessons
+{% capture notice-text %}
 
 - **Reduce cyclomatic complexity** by extracting methods and naming them clearly.
 - **Use small, safe steps** — refactor incrementally and test often.
@@ -147,6 +150,13 @@ This makes the method self-documenting. You no longer need verbose comments — 
 - **Compose methods to tell a story** — make your code self-documenting.
 - **Leave the code better than you found it** every time you make a change.
 - **Aim for progress, not perfection** — good refactoring is incremental, not revolutionary.
+
+{% endcapture %}
+
+<div class="notice--info">
+  <h4 class="no_toc">Summary & Key Lessons:</h4>
+  {{ notice-text | markdownify }}
+</div>
 
 ## Part 3: Refactoring to Testability
 
