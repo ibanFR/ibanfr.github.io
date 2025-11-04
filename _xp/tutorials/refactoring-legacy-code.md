@@ -82,8 +82,8 @@ The first step in refactoring is cleaning up unnecessary code and comments:
 - Simplify variable names: Rename variables to be self-explanatory (e.g., `url` → `urlToTOC`).
 - Extract small methods: For clarity, such as converting inline logic into helper methods (e.g., `hasChildren()`).
 
-Always run your tests after each change to ensure stability. This practice helps catch regressions early, confirms that
-refactoring has not altered expected behavior, and provides confidence to proceed with further improvements.
+Always run your tests after each change to ensure stability. This practice confirms that refactoring has not altered
+expected behavior, and provides confidence to proceed with further improvements.
 
 Automated tests act as a safety net, allowing you to make incremental changes and quickly identify issues, making the
 refactoring process safer and more efficient.
@@ -112,14 +112,12 @@ refactoring process safer and more efficient.
 Once you’ve cleared away obvious clutter, focus on reducing cyclomatic complexity — the number of paths through your
 code. Deeply nested loops and conditionals often signal that your code is too complex.
 
-The key technique here is [Extract Method]. Identify related blocks of code, move them into their own methods, and give
-those methods descriptive names.
+The key technique here is [Extract Method]. Identify related blocks of code, and move them into their own methods. For
+example:
 
-This helps clarify intent and makes the code easier to reason about. For example:
-
-- A block setting up a document node becomes `getNode()`.
-- A loop processing elements becomes `processElement()`.
-- A block closing the JSON string becomes `closeJson()`.
+- A block setting up a document node.
+- A loop processing elements.
+- A block closing the JSON string.
 
 Each extraction simplifies the main method, turning tangled logic into a sequence of clear steps.
 
@@ -131,16 +129,17 @@ early, the code should already be in a better state.
 
 ### Composing Methods
 
-Once complexity is reduced, focus on composing methods — organizing them so that each one clearly describes what it
-does. 
+Once complexity is reduced, focus on composing methods — give each method a descriptive name and organize them so that
+each one clearly describes what it does. This helps clarify intent and makes the code easier to reason about.
 
 For instance, a `getJsonForDoc()` method might have three clear steps:
 
-1. Get the node to parse.
-2. Process each element.
-3. Close the JSON string.
+1. Get the node to parse using `getNode()`.
+2. Process each element with `processElement()`.
+3. Close the JSON string via `closeJson()`.
 
-This makes the method self-documenting. You no longer need verbose comments — the structure and names tell the story.
+This makes the method self-documenting. You no longer need verbose comments — the structure and names tell the whole 
+story.
 
 {% capture notice-text %}
 
