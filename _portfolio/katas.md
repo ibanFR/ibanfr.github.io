@@ -2,7 +2,7 @@
 title: Coding Katas
 header:
     teaser: assets/images/code-kata.jpg
-order: 4
+order: 5
 ---
 
 Collection of Java coding exercises for practicing and improving your programming skills.
