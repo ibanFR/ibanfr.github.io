@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Iván Fernández"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "*Software Engineering Director at <u><a href='https://etu.co'>ETU</a></u>.*"
+  bio    : "*Software Engineering Director at <u><a href='https://www.skillwell.com/'>Skillwell</a></u>.*"
   location: "Getxo, Spain"
   links:
     - label: "Website"
