@@ -43,6 +43,9 @@ xp:
         url: /xp/tutorials/refactoring-legacy-code/
   - title: Reference
     url: /xp/reference/xp-reference/
+    children:
+        - title: "Values, Principles, and Practices"
+          url: /xp/reference/values-principles-practices/
 
 lean:
     - title: Explanation
