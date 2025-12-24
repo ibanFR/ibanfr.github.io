@@ -42,11 +42,11 @@ I've slightly updated these principles based on my own understanding of Extreme 
 4. Accepted responsibility
 5. Work in small batches
 6. Quality work
-7. Incremental Change
-8. Streamlining Change Approval
-9. Continuous Delivery
-10. Rapid Feedback
-11. Embrace change
+7. Continuous Delivery
+8. Rapid Feedback
+9. Concrete experiments
+10. Embrace change
+11. Incremental Change
 12. Sustainable flow
 13. Honest measurement
 14. Continuous improvement and Learning Culture
