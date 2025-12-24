@@ -110,8 +110,8 @@ PRINCIPLES
 3. Autonomous, self-organizing teams
 4. Accepted responsibility
 5. Work in small batches
-6.Quality work
-7.Incremental Change
+6. Quality work
+7. Incremental Change
 8. Continuous Delivery
 9. Rapid Feedback
 10. Embrace change
