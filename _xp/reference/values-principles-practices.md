@@ -105,19 +105,19 @@ The key practices of Extreme Programming include:
 ## Streamlined version
 
 PRINCIPLES
-Open, honest Communication
-Small Initial Investment
-Autonomous, self-organizing teams
-Accepted responsibility
-Work in small batches
-Quality work
-Incremental Change
-Continuous Delivery
-Rapid Feedback
-Embrace change
-Honest measurement
-Continuous Improvement and Learning culture
-Documentation and Knowledge sharing
+1. Open, honest Communication
+2. Small Initial Investment
+3. Autonomous, self-organizing teams
+4. Accepted responsibility
+5. Work in small batches
+6.Quality work
+7.Incremental Change
+8. Continuous Delivery
+9. Rapid Feedback
+10. Embrace change
+11. Honest measurement
+12. Continuous Improvement and Learning culture
+13. Documentation and Knowledge sharing
 
 PRACTICES
 1. Domain Discovery
