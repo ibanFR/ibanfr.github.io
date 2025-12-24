@@ -77,8 +77,8 @@ The key practices of Extreme Programming include:
 18. Technical Coaching
 19. Pair and Ensemble Programming
 20. Simple Design
-21. Continuous Refactoring
-22. Test-Driven Development aka Programmer Tests
+21. Test-Driven Development aka Programmer Tests
+22. Continuous Refactoring
 23. Nearly Zero Bugs
 24. Continuous Integration, Trunk-Based Development
 25. Coding Standards
