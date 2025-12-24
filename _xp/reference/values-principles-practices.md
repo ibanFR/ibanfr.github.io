@@ -61,7 +61,7 @@ The key practices of Extreme Programming include:
 2. User Stories
 3. Rules and Examples
 4. Ubiquitous Language
-5. Acceptance Criteria - Definition of Done
+5. Acceptance Criteria aka Definition of Done
 6. Loosely Coupled Architecture
 7. Incremental, Iterative Design
 8. Spike Solutions
@@ -79,28 +79,29 @@ The key practices of Extreme Programming include:
 20. Simple Design
 21. Test-Driven Development aka Programmer Tests
 22. Continuous Refactoring
-23. Nearly Zero Bugs
-24. Continuous Integration, Trunk-Based Development
+23. Streamlined change approval
+24. Continuous Integration aka Trunk-Based Development
 25. Coding Standards
 26. Collective Code Ownership
 27. Ten-Minute Build
 28. Exploratory Testing
-29. Test Data Management
-30. Frequent Releases
-31. Deployment Automation
-32. Database Change Management
-33. Monitoring and Observability
-34. Root-Cause Analysis
-35. DORA/SAFE Metrics
-36. Team Retrospectives
-37. Eliminate Waste
-38. Iteration Demo
-39. Real Customer Involvement
-40. Backlog refinement
-41. Informative Workspace / Visual Management
-42. Work-In-Progress Documentation
-43. Documentation as Code
-44. Version Control
+29. Nearly Zero Bugs
+30. Test Data Management
+31. Frequent Releases
+32. Deployment Automation
+33. Database Change Management
+34. Monitoring and Observability
+35. Root-Cause Analysis
+36. DORA/SAFE Metrics
+37. Team Retrospectives
+38. Eliminate Waste
+39. Iteration Demo
+40. Real Customer Involvement
+41. Backlog refinement
+42. Informative Workspace / Visual Management
+43. Work-In-Progress Documentation
+44. Documentation as Code
+45. Version Control
 
 ## Streamlined version
 
