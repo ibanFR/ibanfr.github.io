@@ -69,8 +69,8 @@ The key practices of Extreme Programming include:
 10. Estimating
 11. Building Trust
 12. Release planning
-13. Iteration Planning
-14. Maximize Work Not Done
+13. Maximize Work Not Done
+14. Iteration Planning
 15. Daily Stand-Ups
 16. Work in progress (WIP) Limits
 17. Automate Acceptance Tests aka Customer Tests
