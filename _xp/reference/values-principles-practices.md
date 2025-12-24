@@ -63,38 +63,97 @@ The key practices of Extreme Programming include:
 4. Ubiquitous Language
 5. Acceptance Criteria - Definition of Done
 6. Loosely Coupled Architecture
-7. Incremental, Domain-Driven Design
+7. Incremental, Iterative Design
 8. Spike Solutions
-9. Estimating
-10. Release planning
-11. Iteration Planning
-12. Daily Stand-Ups
-13. Work in progress (WIP) Limits
-14. Technical Coaching
-15. Pair and Ensemble Programming
+9. Fail fast
+10. Estimating
+11. Building Trust
+12. Release planning
+13. Iteration Planning
+14. Maximize Work Not Done
+15. Daily Stand-Ups
+16. Work in progress (WIP) Limits
+17. Automate Acceptance Tests aka Customer Tests
+18. Technical Coaching
+19. Pair and Ensemble Programming
+20. Simple Design
+21. Continuous Refactoring
+22. Test-Driven Development aka Programmer Tests
+23. Nearly Zero Bugs
+24. Continuous Integration, Trunk-Based Development
+25. Coding Standards
+26. Collective Code Ownership
+27. Ten-Minute Build
+28. Exploratory Testing
+29. Test Data Management
+30. Frequent Releases
+31. Deployment Automation
+32. Database Change Management
+33. Monitoring and Observability
+34. Root-Cause Analysis
+35. DORA/SAFE Metrics
+36. Team Retrospectives
+37. Eliminate Waste
+38. Iteration Demo
+39. Real Customer Involvement
+40. Backlog refinement
+41. Informative Workspace / Visual Management
+42. Work-In-Progress Documentation
+43. Documentation as Code
+44. Version Control
+
+## Streamlined version
+
+PRINCIPLES
+Open, honest Communication
+Small Initial Investment
+Autonomous, self-organizing teams
+Accepted responsibility
+Work in small batches
+Quality work
+Incremental Change
+Continuous Delivery
+Rapid Feedback
+Embrace change
+Honest measurement
+Continuous Improvement and Learning culture
+Documentation and Knowledge sharing
+
+PRACTICES
+1. Domain Discovery
+2. User stories
+3. Rules and examples
+4. Acceptance Criteria
+5. Loosely coupled architecture
+6. Spike solutions
+7. Fail fast
+8. Estimating
+9. Release planning
+10. Maximize Work Not Done
+11. Iteration planning
+12. Work in progress limits
+13. Daily Stand-Ups
+14. Technical coaching
+15. Pair and ensemble  programming
 16. Simple Design
 17. Continuous Refactoring
-18. Test automation (Test-Driven Development)
-19. Test Data Management
-20. Continuous Integration
-21. Trunk-Based Development
-22. Coding Standards
-23. Collective Code Ownership
-24. Small and frequent Releases
-25. Deployment Automation
-26. Database Change Management
-27. Monitoring and Observability
-28. Root-Cause Analysis
-29. DORA/SAFE Metrics
-30. Team Retrospectives
+18. Test automation
+19. Nearly Zero Bugs
+20. Trunk based development
+21. Coding standards
+22. Exploratory Testing
+23. Frequent releases
+24. Deployment automation
+25. Database change management
+26. Monitoring and observability
+27. Root-Cause Analysis
+28. DORA/SAFE metrics
+29. Team retrospectives
+30. Eliminate Waste
 31. Iteration Demo
-32. Customer feedback
+32. Informative Workspaces and Visual Management
 33. Backlog refinement
-34. Informative Workspace / Visual Management
-35. Work-In-Progress Documentation
-36. Diátaxis
-37. Documentation as Code
-38. Version Control
+34. Work-In-Progress Documentation
 
 
 ## Other resources
