@@ -41,13 +41,14 @@ I've slightly updated these principles based on my own understanding of Extreme 
 3. Accepted responsibility
 4. Work in small batches
 5. Quality work
-6. Deliver Value
+6. Continuously Deliver Value
 7. Rapid Feedback
-8. Honest measurement
-9. Eliminate Waste
-10. Continuous improvement
-11. Incremental Change
-12. Sustainable flow
+8. Build Trust
+9. Incremental Change
+10. Sustainable Flow
+11. Honest measurements
+12. Eliminate Waste
+13. Continuous improvement
 
 
 ## Practices
