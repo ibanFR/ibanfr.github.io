@@ -49,7 +49,7 @@ I've slightly updated these principles based on my own understanding of Extreme 
 11. Embrace change
 12. Sustainable flow
 13. Honest measurement
-14. Continuous improvement and Learning Culture
+14. Continuous improvement
 15. Documentation and Knowledge sharing
 
 
