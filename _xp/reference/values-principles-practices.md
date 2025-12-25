@@ -37,20 +37,17 @@ The twelve principles of Extreme Programming are:
 I've slightly updated these principles based on my own understanding of Extreme Programming:
 
 1. Open, honest communication
-2. Small Initial Investment
-3. Autonomous, self-organizing teams
-4. Accepted responsibility
-5. Work in small batches
-6. Quality work
-7. Continuous Delivery
-8. Rapid Feedback
-9. Incremental Change
-10. Concrete experiments
-11. Embrace change
+2. Autonomous, self-organizing teams
+3. Accepted responsibility
+4. Work in small batches
+5. Quality work
+6. Deliver Value
+7. Rapid Feedback
+8. Honest measurement
+9. Eliminate Waste
+10. Continuous improvement
+11. Incremental Change
 12. Sustainable flow
-13. Honest measurement
-14. Continuous improvement
-15. Documentation and Knowledge sharing
 
 
 ## Practices
