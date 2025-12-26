@@ -73,7 +73,7 @@ I've slightly updated these principles based on my own experience practicing Ext
 
 The key practices of Extreme Programming include:
 
-## Primary Practices
+## Kent Beck's Primary Practices
 
 The original 13 Extreme Programming practices as defined by Kent Beck are:
 
@@ -95,21 +95,19 @@ I've updated and expanded this list based on my own experience practicing Extrem
 
 1. Domain Discovery
 2. User Stories
-3. Acceptance criteria aka Definition of Done
-4. Cross-functional teams
-5. Loosely coupled architecture
-6. Iteration planning
-7. Pair programming
-8. Simple design
-9. Test automation
-10. Refactoring
-11. Continuous integration
-12. Ten-minute build
-13. Frequent releases aka Continuous Delivery
-14. Nearly zero bugs
-15. Informative workspaces aka Visual Management
-16. Team retrospectives
-17. Eliminate Waste
+3. Loosely Coupled Architecture
+4. Acceptance Criteria aka Definition of Done
+5. Iteration Planning
+6. Pair Programming
+7. Test automation
+8. Incremental Design aka Refactoring
+9. Continuous Integration
+10. Ten-minute Build
+11. Frequent releases aka Continuous Delivery
+12. Nearly Zero Bugs
+13. Informative Workspaces aka Visual Management
+14. Team Retrospectives
+15. Eliminate Waste
 
 
 ## Full List of Practices
@@ -137,27 +135,28 @@ I've updated and expanded this list based on my own experience practicing Extrem
 21. Simple Design
 22. Test-Driven Development aka Programmer Tests
 23. Continuous Refactoring
-24. Streamlined change approval
-25. Continuous Integration aka Trunk-Based Development
-26. Coding Standards
-27. Collective Code Ownership
-28. Ten-Minute Build
-29. Exploratory Testing
-30. Nearly Zero Bugs
-31. Test Data Management
-32. Frequent Releases aka Continuous Delivery
-33. Deployment Automation
-34. Database Change Management
-35. Monitoring and Observability
-36. Root-Cause Analysis
-37. DORA/SAFE Metrics
-38. Team Retrospectives
-39. Eliminate Waste
-40. Iteration Demo
-41. Real Customer Involvement
-42. Informative Workspace / Visual Management
-43. Work-In-Progress Documentation
-44. Documentation as Code
+24. Version Control
+25. Streamlined change approval
+26. Continuous Integration aka Trunk-Based Development
+27. Coding Standards
+28. Collective Code Ownership
+29. Ten-Minute Build
+30. Exploratory Testing
+31. Nearly Zero Bugs
+32. Test Data Management
+33. Frequent Releases aka Continuous Delivery
+34. Deployment Automation
+35. Database Change Management
+36. Monitoring and Observability
+37. Root-Cause Analysis
+38. DORA/SAFE Metrics
+39. Team Retrospectives
+40. Eliminate Waste
+41. Iteration Demo
+42. Real Customer Involvement
+43. Informative Workspace / Visual Management
+44. Work-In-Progress Documentation
+45. Documentation as Code
 
 ## Other resources
 
