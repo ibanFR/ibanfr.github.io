@@ -16,7 +16,25 @@ The five core values of Extreme Programming are:
 
 ## Principles
 
-The twelve principles of Extreme Programming are:
+Kent Beck originally defined 14 principles for Extreme Programming in his book "Extreme Programming Explained":
+
+1. Humanity
+2. Economics
+3. Mutual Benefit
+4. Self-Similarity
+5. Improvement
+6. Diversity
+7. Reflection
+8. Flow
+9. Opportunity
+10. Redundancy
+11. Failure
+12. Quality
+13. Baby Steps
+14. Accepted Responsibility
+
+
+Martin Fowler's 15 [Principles of XP]:
 
 1. Rapid feedback
 2. Assume simplicity
@@ -34,7 +52,7 @@ The twelve principles of Extreme Programming are:
 14. Travel light
 15. Honest measurements
 
-I've slightly updated these principles based on my own understanding of Extreme Programming:
+I've slightly updated these principles based on my own experience practicing Extreme Programming:
 
 1. Open, honest communication
 2. Autonomous, self-organizing teams
@@ -43,11 +61,11 @@ I've slightly updated these principles based on my own understanding of Extreme 
 5. Quality work
 6. Continuously Deliver Value
 7. Rapid Feedback
-8. Build Trust
-9. Incremental Change
-10. Sustainable Flow
+8. Incremental Change
+9. Sustainable Flow
+10. Build Trust
 11. Honest measurements
-12. Eliminate Waste
+12. Reflection
 13. Continuous improvement
 
 
@@ -55,109 +73,95 @@ I've slightly updated these principles based on my own understanding of Extreme 
 
 The key practices of Extreme Programming include:
 
+## Primary Practices
+
+The original 13 Extreme Programming practices as defined by Kent Beck are:
+
+1. Sit together
+2. Whole team
+3. Informative workspace
+4. Energized work
+5. Pair programming
+6. Stories
+7. Weekly cycle
+8. Quarterly cycle
+9. Slack
+10. Ten-minute build
+11. Continuous integration
+12. Test-first programming
+13. Incremental design
+
+I've updated and expanded this list based on my own experience practicing Extreme Programming:
+
+1. Domain Discovery
+2. User Stories
+3. Acceptance criteria aka Definition of Done
+4. Cross-functional teams
+5. Loosely coupled architecture
+6. Iteration planning
+7. Pair programming
+8. Simple design
+9. Test automation
+10. Refactoring
+11. Continuous integration
+12. Ten-minute build
+13. Frequent releases aka Continuous Delivery
+14. Nearly zero bugs
+15. Informative workspaces aka Visual Management
+16. Team retrospectives
+17. Eliminate Waste
+
+
+## Full List of Practices
+
 1. Domain Discovery
 2. User Stories
 3. Rules and Examples
 4. Ubiquitous Language
 5. Acceptance Criteria aka Definition of Done
-6. Loosely Coupled Architecture
-7. Incremental, Iterative Design
-8. Spike Solutions
-9. Fail fast
-10. Estimating
-11. Building Trust
-12. Release planning
-13. Maximize Work Not Done
-14. Iteration Planning
-15. Daily Stand-Ups
-16. Work in progress (WIP) Limits
-17. Automate Acceptance Tests aka Customer Tests
-18. Technical Coaching
-19. Pair and Ensemble Programming
-20. Simple Design
-21. Test-Driven Development aka Programmer Tests
-22. Continuous Refactoring
-23. Streamlined change approval
-24. Continuous Integration aka Trunk-Based Development
-25. Coding Standards
-26. Collective Code Ownership
-27. Ten-Minute Build
-28. Exploratory Testing
-29. Nearly Zero Bugs
-30. Test Data Management
-31. Frequent Releases
-32. Deployment Automation
-33. Database Change Management
-34. Monitoring and Observability
-35. Root-Cause Analysis
-36. DORA/SAFE Metrics
-37. Team Retrospectives
-38. Eliminate Waste
-39. Iteration Demo
-40. Real Customer Involvement
-41. Backlog refinement
+6. Cross-functional Teams
+7. Loosely Coupled Architecture
+8. Incremental Design
+9. Concrete Experiments aka Spike Solutions
+10. Fail fast
+11. Release planning
+12. Maximize Work Not Done
+13. Backlog refinement
+14. Estimating
+15. Iteration Planning
+16. Daily Stand-Ups
+17. Work in progress (WIP) Limits
+18. Automated Acceptance Tests aka Customer Tests
+19. Technical Coaching
+20. Pair Programming
+21. Simple Design
+22. Test-Driven Development aka Programmer Tests
+23. Continuous Refactoring
+24. Streamlined change approval
+25. Continuous Integration aka Trunk-Based Development
+26. Coding Standards
+27. Collective Code Ownership
+28. Ten-Minute Build
+29. Exploratory Testing
+30. Nearly Zero Bugs
+31. Test Data Management
+32. Frequent Releases aka Continuous Delivery
+33. Deployment Automation
+34. Database Change Management
+35. Monitoring and Observability
+36. Root-Cause Analysis
+37. DORA/SAFE Metrics
+38. Team Retrospectives
+39. Eliminate Waste
+40. Iteration Demo
+41. Real Customer Involvement
 42. Informative Workspace / Visual Management
 43. Work-In-Progress Documentation
 44. Documentation as Code
-45. Version Control
-
-## Streamlined version
-
-PRINCIPLES
-1. Open, honest Communication
-2. Small Initial Investment
-3. Autonomous, self-organizing teams
-4. Accepted responsibility
-5. Work in small batches
-6. Quality work
-7. Incremental Change
-8. Continuous Delivery
-9. Rapid Feedback
-10. Embrace change
-11. Honest measurement
-12. Continuous Improvement and Learning culture
-13. Documentation and Knowledge sharing
-
-PRACTICES
-1. Domain Discovery
-2. User stories
-3. Rules and examples
-4. Acceptance Criteria
-5. Loosely coupled architecture
-6. Spike solutions
-7. Fail fast
-8. Estimating
-9. Release planning
-10. Maximize Work Not Done
-11. Iteration planning
-12. Work in progress limits
-13. Daily Stand-Ups
-14. Technical coaching
-15. Pair and ensemble  programming
-16. Simple Design
-17. Continuous Refactoring
-18. Test automation
-19. Nearly Zero Bugs
-20. Trunk based development
-21. Coding standards
-22. Exploratory Testing
-23. Frequent releases
-24. Deployment automation
-25. Database change management
-26. Monitoring and observability
-27. Root-Cause Analysis
-28. DORA/SAFE metrics
-29. Team retrospectives
-30. Eliminate Waste
-31. Iteration Demo
-32. Informative Workspaces and Visual Management
-33. Backlog refinement
-34. Work-In-Progress Documentation
-
 
 ## Other resources
 
 See Martin Fowler's article on [Extreme Programming](https://martinfowler.com/bliki/ExtremeProgramming.html) for a
 detailed overview.
 
-
+[Principles of XP]: https://martinfowler.com/bliki/PrinciplesOfXP.html
