@@ -59,9 +59,9 @@ I've slightly updated these principles based on my own experience practicing Ext
 3. Accepted responsibility
 4. Work in small batches
 5. Quality work
-6. Continuously Deliver Value
-7. Rapid Feedback
-8. Incremental Change
+6. Rapid Feedback
+7. Incremental Change
+8. Continuously Deliver Value
 9. Sustainable Flow
 10. Build Trust
 11. Honest measurements
@@ -99,10 +99,10 @@ I've updated and expanded this list based on my own experience practicing Extrem
 4. Acceptance Criteria aka Definition of Done
 5. Iteration Planning
 6. Pair Programming
-7. Test automation
-8. Incremental Design aka Refactoring
-9. Continuous Integration
-10. Ten-minute Build
+7. Test Automation
+8. Continuous Integration
+9. Ten-minute Build
+10. Incremental Design aka Refactoring
 11. Frequent releases aka Continuous Delivery
 12. Nearly Zero Bugs
 13. Informative Workspaces aka Visual Management
