@@ -16,42 +16,6 @@ The five core values of Extreme Programming are:
 
 ## Principles
 
-Kent Beck originally defined 14 principles for Extreme Programming in his book "Extreme Programming Explained":
-
-1. Humanity
-2. Economics
-3. Mutual Benefit
-4. Self-Similarity
-5. Improvement
-6. Diversity
-7. Reflection
-8. Flow
-9. Opportunity
-10. Redundancy
-11. Failure
-12. Quality
-13. Baby Steps
-14. Accepted Responsibility
-
-
-Martin Fowler's 15 [Principles of XP]:
-
-1. Rapid feedback
-2. Assume simplicity
-3. Incremental change
-4. Embracing change
-5. Quality work
-6. Teach Learning
-7. Small initial investment
-8. Play to win
-9. Concrete experiments
-10. Open, honest communication
-11. Work with people instincts, not against them
-12. Accepted responsibility
-13. Local adaptation
-14. Travel light
-15. Honest measurements
-
 I've slightly updated these principles based on my own experience practicing Extreme Programming:
 
 1. Open, honest communication
@@ -69,29 +33,9 @@ I've slightly updated these principles based on my own experience practicing Ext
 13. Continuous improvement
 
 
-## Practices
+## Primary Practices
 
-The key practices of Extreme Programming include:
-
-## Kent Beck's Primary Practices
-
-The original 13 Extreme Programming practices as defined by Kent Beck are:
-
-1. Sit together
-2. Whole team
-3. Informative workspace
-4. Energized work
-5. Pair programming
-6. Stories
-7. Weekly cycle
-8. Quarterly cycle
-9. Slack
-10. Ten-minute build
-11. Continuous integration
-12. Test-first programming
-13. Incremental design
-
-I've updated and expanded this list based on my own experience practicing Extreme Programming:
+The following list has been compiled based on my personal experience applying Extreme Programming:
 
 1. Domain Discovery
 2. User Stories
@@ -162,5 +106,3 @@ I've updated and expanded this list based on my own experience practicing Extrem
 
 See Martin Fowler's article on [Extreme Programming](https://martinfowler.com/bliki/ExtremeProgramming.html) for a
 detailed overview.
-
-[Principles of XP]: https://martinfowler.com/bliki/PrinciplesOfXP.html

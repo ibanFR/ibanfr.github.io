@@ -34,8 +34,10 @@ xp:
   - title: Explanation
     url: /guides/xp/
     children:
-      - title: "Extreme Programming Goodreads"
+      - title: "XP Goodreads"
         url: /xp/explanation/xp-goodreads/
+      - title: "Values, Principles, and Practices"
+        url: /xp/explanation/values-principles-practices/values-principles-practices-explanation
   - title: Tutorials
     url: /xp/tutorials/xp-tutorials/
     children:
@@ -46,7 +48,6 @@ xp:
     children:
         - title: "Values, Principles, and Practices"
           url: /xp/reference/values-principles-practices/
-
 lean:
     - title: Explanation
       url: /guides/lean/
