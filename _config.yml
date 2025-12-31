@@ -112,6 +112,9 @@ collections:
   lean:
     output: true
     permalink: /:collection/:path/
+  coaching:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -198,6 +201,18 @@ defaults:
       sidebar:
         nav:
           - lean
+  # _coaching
+  - scope:
+      path: ""
+      type: coaching
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - coaching
 
 
 

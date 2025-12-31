@@ -56,5 +56,11 @@ lean:
           url: /lean/explanation/lean-goodreads/
         - title: "Value"
           url: /lean/explanation/value/
+coaching:
+    - title: Explanation
+      url: /guides/coaching/
+      children:
+        - title: "Technical Coaching Goodreads"
+          url: /coaching/explanation/coaching-goodreads/
 
 
