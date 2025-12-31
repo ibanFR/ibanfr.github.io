@@ -161,19 +161,78 @@ story.
 
 {% include video id="3iirETgRaRc" provider="youtube" %}
 
-### Refactoring to Testability
-
 This episode concludes the series on refactoring legacy code. Earlier parts covered the first three steps of his 
 four-step process: removing clutter, reducing cyclomatic complexity, and composing methods. The final step takes these
 improvements further by introducing automated tests — and seeing how they immediately surface hidden bugs.
 
-Dave begins by introducing some further refactorings to `processElement(String, Element)` method to improve testability.
+Dave begins by introducing some further refactorings to the codebase to improve testability. I'm providing my own
+summary of the key techniques he demonstrates.
+
+#### Replace Function with Command
+
+[Replace Function with Command] aka [Replace Method with Method Object] encapsulates behavior in command objects for better testability.
+
+1. Extract method `toJsonString(String, Element)` to convert a Document element to JSON string.
+2. Create class `DocumentElement` to represent document elements - encapsulates related data and behavior.
+3. Add `DocumentElement` as parameter to `toJsonString` method.
+4. Inline method `hasChildren` - make the code accessible from `toJsonString` method.
+5. Convert `toJsonString` method to an instance method of `DocumentElement` - improve encapsulation and support polymorphism.
+6. Extract method `hasChildren` in `DocumentElement` class.
+7. Create constructor `DocumentElement(String)` - pass arguments to the command on the constructor.
+8. Use `xPathString` field in `toJsonString` method - utilize instance fields for better encapsulation.
+9. Safe delete `xPathString` parameter from `toJsonString` method - remove unused parameters to clean up the method signature.
+10. Add `Element` parameter to `DocumentElement` constructor - ensure all necessary data is provided at instantiation.
+11. Use `element` field in `toJsonString` method - utilize instance fields for better encapsulation.
+12. Safe delete `element` parameter from `toJsonString` method - further clean up the method signature.
+13. Introduce field `jsonString` to store the result of `toJsonString` method - maintain state within the command object.
+14. Introduce field `elementName` to store the element name - move the function state into the command object.
+15. Introduce field `attributes` to store the element attributes - move the function state into the command object.
+16. Introduce field `title` to store the element title - move the function state into the command object.
+17. Introduce field `file` to store the element filename - move the function state into the command object.
+18. Extract method `processDocAttributes` in `DocumentElement` class - break down `toJsonString` methods into smaller pieces.
+19. Extract method `addStateClosed` in `DocumentElement` class - compose method to handle state closing logic.
+20. Extract method `closeElement` in `DocumentElement` class - compose method to handle element closing logic.
+21. Extract method `processFolderAttributes` in `DocumentElement` class - break down `toJsonString` methods into smaller pieces.
+
+#### Replace Conditional with Polymorphism
+
+Refactoring technique to eliminate conditionals based on type codes by using subclasses and polymorphism.
+
+1. Extract method `processElement()` in `DocumentElement` class - extract conditional statement into its own method.
+2. [Encapsulate variable] `elementName` - self-encapsulate the type code.
+3. [Replace Constructor with Factory Function] aka Replace Constructor with Factory Method - use factory methods to
+  create an instance of `DocumentElement`.
+4. Create `DocElement` subclass and add selector logic for `doc` type code value in the factory method.
+5. Override the type code getter in `DocElement` class to return the literal type code value.
+
+   Ensure the subclass is being used by altering the return value of the `getElemName()` override and testing again to
+   ensure the test fails. Confirm success by restoring the correct return value and running the test again.
+   {:.notice--success}
+
+6. Create `FolderElement` subclass and add selector logic for `folder` type code value in the factory method. 
+7. Override the type code getter in `FolderElement` class to return the literal type code value.
+8. Remove type code field `elementName` from `DocumentElement` class - eliminate redundant type code field.
+9. Add default branch in the factory method to handle unexpected type code values.
+10. Make `getElementName` an abstract method and `DocumentElement` an abstract class - enforce implementation in 
+    subclasses.
+11. Override `processElement` method in `DocElement` class. Copy the relevant logic from the conditional statement.
+12. Override `processElement` method in `FolderElement` class. Copy the relevant logic from the conditional statement.
+13. Declare `processElement` method in `DocumentElement` class as abstract - enforce implementation in subclasses.
+14. Safe delete `getElementName` method from `DocumentElement` class and its subclasses - clean up unused methods.
+15. [Push Down Method] `hasChildren` to `DocElement` class - move method to the subclass where it's relevant.
 
 
 [Continuous Delivery Training]: https://courses.cd.training/
 [Refactoring Legacy Code tutorial]:https://courses.cd.training/courses/refactoring-tutorial/
 [Creating a repository from a template]:https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
 [Extract Method]:https://refactoring.com/catalog/extractFunction.html
+[Replace Function with Command]: https://refactoring.guru/replace-function-with-command
+[Replace Method with Method Object]: https://refactoring.guru/replace-method-with-method-object
+[Replace Conditional with Polymorphism]: https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html
+[Replace Type Code with Subclasses]: https://refactoring.com/catalog/replaceTypeCodeWithSubclasses.html
+[Encapsulate Variable]: https://refactoring.com/catalog/encapsulateVariable.html
+[Replace Constructor with Factory Function]: https://refactoring.com/catalog/replaceConstructorWithFactoryFunction.html
+[Push Down Method]: https://refactoring.com/catalog/pushDownMethod.html
 
 
 
