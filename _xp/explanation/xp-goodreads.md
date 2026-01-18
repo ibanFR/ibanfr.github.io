@@ -27,3 +27,12 @@ feedback in software development.
 
 {% include figure popup=true image_path="assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png"
 alt="Extreme Programming Explained book cover" caption="Extreme Programming Explained, Kent Beck, 2nd Edition (2004)" %}
+
+## Test-Driven Development By Example
+
+Test-Driven Development: By Example by Kent Beck is a practical guide to the test-driven development (TDD)
+methodology. The book provides step-by-step examples of how to write tests before code, promoting better design and higher
+code quality.
+
+{% include figure popup=true image_path="assets/images/xp/explanation/goodreads/test-driven-development-by-example-cover.jpg"
+alt="Test-Driven Development By Example book cover" caption="Test-Driven Development By Example, Kent Beck, 2nd Edition (2002)" %}
