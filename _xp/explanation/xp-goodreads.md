@@ -36,3 +36,11 @@ code quality.
 
 {% include figure popup=true image_path="assets/images/xp/explanation/goodreads/test-driven-development-by-example-cover.jpg"
 alt="Test-Driven Development By Example book cover" caption="Test-Driven Development By Example, Kent Beck, 2nd Edition (2002)" %}
+
+## Refactoring: Improving the Design of Existing Code
+
+Refactoring: Improving the Design of Existing Code by Martin Fowler is a seminal book on code refactoring. It
+provides a catalog of refactoring techniques and emphasizes the importance of maintaining clean and efficient codebases.
+
+{% include figure popup=true image_path="assets/images/xp/explanation/goodreads/refactoring-cover.jpg"
+alt="Refactoring book cover" caption="Refactoring: Improving the Design of Existing Code, Martin Fowler, 2nd Edition (2018)" %} 
