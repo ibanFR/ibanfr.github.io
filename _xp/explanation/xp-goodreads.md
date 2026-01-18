@@ -43,4 +43,13 @@ Refactoring: Improving the Design of Existing Code by Martin Fowler is a seminal
 provides a catalog of refactoring techniques and emphasizes the importance of maintaining clean and efficient codebases.
 
 {% include figure popup=true image_path="assets/images/xp/explanation/goodreads/refactoring-cover.jpg"
-alt="Refactoring book cover" caption="Refactoring: Improving the Design of Existing Code, Martin Fowler, 2nd Edition (2018)" %} 
+alt="Refactoring book cover" caption="Refactoring: Improving the Design of Existing Code, Martin Fowler, 2nd Edition (2018)" %}
+
+## Working Effectively with Legacy Code
+
+Working Effectively with Legacy Code by Michael Feathers is a guide to managing and improving legacy codebases. It 
+offers strategies for safely making changes to existing code, enabling developers to add new features and fix bugs 
+without introducing new issues.
+
+{% include figure popup=true image_path="assets/images/xp/explanation/goodreads/working-effectively-with-legacy-code-cover.jpg"
+alt="Working Effectively with Legacy Code book cover" caption="Working Effectively with Legacy Code, Michael Feathers (2004)" %}
