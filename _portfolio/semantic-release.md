@@ -1,7 +1,7 @@
 ---
 title: Semantic Release Learning Hour
 header:
-    teaser: assets/images/portfolio/semantic-release.png
+    teaser: assets/images/technical-coaching/samman_Submark_dark_blue_small.png
 order: 1
 ---
 
