@@ -53,3 +53,13 @@ without introducing new issues.
 
 {% include figure popup=true image_path="assets/images/xp/explanation/goodreads/working-effectively-with-legacy-code-cover.jpg"
 alt="Working Effectively with Legacy Code book cover" caption="Working Effectively with Legacy Code, Michael Feathers (2004)" %}
+
+## Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
+
+Continuous Delivery by Jez Humble and David Farley is a comprehensive guide to automating the software delivery
+process. It covers best practices for building, testing, and deploying software, enabling teams to deliver
+high-quality software quickly and reliably.
+
+{% include figure popup=true image_path="assets/images/xp/explanation/goodreads/continuous-delivery-cover.jpg"
+alt="Continuous Delivery book cover" caption="Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation,
+Jez Humble and David Farley (2010)" %}
