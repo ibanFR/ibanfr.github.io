@@ -38,6 +38,8 @@ xp:
         url: /xp/explanation/xp-goodreads/
       - title: "Values, Principles, and Practices"
         url: /xp/explanation/values-principles-practices/values-principles-practices-explanation
+      - title: "Refactoring"
+        url: /xp/explanation/refactoring
   - title: Tutorials
     url: /xp/tutorials/xp-tutorials/
     children:
