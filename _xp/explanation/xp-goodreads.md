@@ -16,6 +16,8 @@ providing practical advice for teams looking to implement agile methodologies.
 alt="The Art of Agile Development book cover" caption="The Art of Agile Development, James Shore, 2nd Edition
 (2021)" %}
 
+For more information, visit James Shore's [official website](https://www.jamesshore.com/v2/books/aoad2).
+
 
 ## Extreme Programming Explained: Embrace Change
 
