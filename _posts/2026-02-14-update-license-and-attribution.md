@@ -23,14 +23,27 @@ This is crucial for respecting the intellectual property rights of the original 
 
 1. Keep the original `LICENSE` file in your new repository to ensure that you are complying with the terms of the original
    project.
-2. Add your copyright line below the orginal copyright line in the `LICENSE` file to acknowledge your contributions while respecting the original authors' rights.
+2. Add your copyright line with the original copyright line in the `LICENSE` file to acknowledge your contributions 
+   while respecting the original authors' rights.
 
    ```markdown
    The MIT License (MIT)
    
-   Copyright (c) 2015 @emilybache
    Copyright (c) 2026 Iván Fernández
+   Copyright (c) 2015 @emilybache
    
    Permission is hereby granted, free of charge, to any person obtaining a copy...
    
    ```
+   
+## Acknowledge the original project in the README file
+
+Add an "Acknowledgements" section in your `README` file that links to the original template and its creator:
+
+```markdown
+
+## Acknowledgements
+
+Special thanks to **[@emilybache](https://github.com/emilybache)** for providing the The original source code and 
+starting point for this repository, the [Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata).
+```
