@@ -5,9 +5,9 @@ header:
   overlay_image: /assets/images/getxo-gorrondatxe.jpg
   show_overlay_excerpt: false
 categories:
-  - blog
+  - Version Control
 tags:
-  - Guide
+  - GitHub
 ---
 
 
