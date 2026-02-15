@@ -21,4 +21,15 @@ Meadows</cite>
 Teaming book cover" caption="Software Teaming: A Mob Programming, Whole-Team Approach, Woody Zuill and Kevin 
 Meadows, 2nd edition (2022)" %}
 
+## The Mob Programming Guidebook
+
+[The Mob Programming Guidebook] provides practical guidance on implementing mob programming, a collaborative software 
+development approach where the entire team works together on the same task at the same time. The guidebook covers best practices, techniques, and real-world examples to help teams adopt and succeed with mob programming.
+
+{% include figure popup=true image_path="assets/images/technical-coaching/mob-programming-guidebook-cover.png" 
+alt="Mob Programming Guidebook book cover" caption="The Mob Programming Guidebook by Maaret Pyhäjärvi and Llewellyn 
+Falco, 1st edition (2018)
+" %}
+
 [Software Teaming: A Mob Programming, Whole-Team Approach]: https://softwareteaming.com/
+[The Mob Programming Guidebook]: https://www.mobprogrammingguidebook.com/
