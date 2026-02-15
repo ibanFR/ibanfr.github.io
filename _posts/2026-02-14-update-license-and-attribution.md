@@ -57,6 +57,13 @@ included in distributions where it's present in the original project.
 Whenever you are reusing CC licensed works, we recommend that the attribution include the Title, Author, Source, and
 License.
 
+For example, if you reuse an image from Unsplash, you can credit the photographer and link to the original image and profile:
+
+{% include figure
+popup=true image_path="assets/images/posts/markus-winkler-unsplash.jpg" 
+alt="this is a placeholder image" 
+caption="Photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/green-and-white-braille-typewriter-9XfSFjcwGh0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" %}
+
 See the [Creative Commons Attribution Best Practices](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) for more details.
 
 ## Practical checklist
