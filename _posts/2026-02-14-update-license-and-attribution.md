@@ -11,39 +11,65 @@ tags:
 ---
 
 
-When you create a GitHub repository from a template, you must adhere to the original project's
-license and general attribution best practices to ensure your commits are both ethical and legal.
+This short guide explains practical steps to update a repository created from a template so you stay
+respectful of the original authors and compliant with the license terms.
 
-This post explains how to update the license files and provides examples for attributions to the original project.
+## Keep the original license file
 
-## Adhere to the original project's license
+Always keep the original `LICENSE` file in the repository root. Do not modify the license text itself —
+that text expresses the legal grant and must remain intact. You can add your own copyright notice in the
+same file, below the original copyright line(s).
 
-Retain the original `LICENSE` file in your new repository to ensure compliance with the terms of the original project.
-This is crucial for respecting the intellectual property rights of the original authors and maintaining legal integrity.
+Example (MIT-style):
 
-1. Keep the original `LICENSE` file in your new repository to ensure that you are complying with the terms of the original
-   project.
-2. Add your copyright line with the original copyright line in the `LICENSE` file to acknowledge your contributions 
-   while respecting the original authors' rights.
+```text
+The MIT License (MIT)
 
-   ```markdown
-   The MIT License (MIT)
-   
-   Copyright (c) 2026 Iván Fernández
-   Copyright (c) 2015 @emilybache
-   
-   Permission is hereby granted, free of charge, to any person obtaining a copy...
-   
-   ```
-   
-## Acknowledge the original project in the README file
+Copyright (c) 2015 @emilybache
+Copyright (c) 2026 Iván Fernández
 
-Add an "Acknowledgements" section in your `README` file that links to the original template and its creator:
+Permission is hereby granted, free of charge, to any person...
+```
+
+## Acknowledge the original project in `README.md`
+
+Add an "Acknowledgements" section that links to the original template and credits the
+author(s). Keep this short and link to the original repository.
+
+Example `README` snippet:
 
 ```markdown
-
 ## Acknowledgements
 
-Special thanks to **[@emilybache](https://github.com/emilybache)** for providing the The original source code and 
-starting point for this repository, the [Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata).
+This repository was created from
+the [Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+template by [Emily Bache](https://github.com/emilybache). Thank you for the original project and for
+making it available under its license.
 ```
+
+## Apache 2.0: Preserve and update `NOTICE` according to the original project's instructions.
+
+Apache requires that `NOTICE` information be
+included in distributions where it's present in the original project.
+
+## Creative Commons: Credit the original author and link to the original work
+
+Whenever you are reusing CC licensed works, we recommend that the attribution include the Title, Author, Source, and
+License.
+
+See the [Creative Commons Attribution Best Practices](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) for more details.
+
+## Practical checklist
+
+- [ ] Keep the original `LICENSE` file in the repository root.
+- [ ] Append your copyright line(s) below the original copyright notice in
+  `LICENSE` (do not alter the license text itself).
+- [ ] Add an "Acknowledgements" section to `README.md` linking to the template repo.
+- [ ] If present, preserve and update `NOTICE` according to the original project's instructions.
+- [ ] Add a short note to the first commit or PR message explaining that this repo was created from a
+  template and linking to the original repository.
+
+## Disclaimer
+
+This post provides practical guidance and examples, not legal advice. For complex licensing questions or
+commercial distributions, consult a lawyer or licensing expert.
