@@ -8,9 +8,9 @@ header:
     - label: "More Info"
       url: "https://mmistakes.github.io/minimal-mistakes/docs/collections/"
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Guide
+  - Minimal Mistakes
 ---
 
 The last thing I want to do to replace my legacy site is to add the Portfolio section to my site. 
