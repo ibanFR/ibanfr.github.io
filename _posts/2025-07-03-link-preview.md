@@ -8,9 +8,7 @@ header:
     - label: "More Info"
       url: "https://github.com/ysk24ok/jekyll-linkpreview"
 categories:
-  - blog
-tags:
-  - Guide
+  - Static Site Generators
 ---
 
 This post explains how to add link previews to your Jekyll site using a Jekyll plugin.
@@ -31,7 +29,7 @@ linked page and generates a preview card that includes the title, description, a
 
 TODO
 
-## Github Actions
+## GitHub Actions
 
 See Jekyll documentation for [GitHub Actions].
 
