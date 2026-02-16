@@ -73,6 +73,8 @@ Assuming Jekyll and Bundler are installed on your computer:
         paths:
           - "docs/**"
     ```
+   
+6. [Configure the publishing source for your GitHub Pages site] to `GitHub Actions` in the repository settings.
 
 
 ## Licensing and Attribution
@@ -80,3 +82,4 @@ Assuming Jekyll and Bundler are installed on your computer:
 
 [Just the Docs Jekyll theme]: https://just-the-docs.com/
 [just-the-docs template]: https://github.com/just-the-docs/just-the-docs-template
+[Configure the publishing source for your GitHub Pages site]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
