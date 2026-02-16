@@ -4,9 +4,9 @@ date: 2025-06-21T09:11:00-04:00
 header:
   image: /assets/images/getxo-gorrondatxe.jpg
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Guide
+  - Minimal Mistakes
 ---
 
 Today we will try to add a header to our site using the Minimal Mistakes theme. 
