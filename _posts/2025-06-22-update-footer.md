@@ -8,9 +8,9 @@ header:
     - label: "More Info"
       url: "https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/"
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Guide
+  - Minimal Mistakes
 ---
 
 The next thing I want to do today is removing the `Powered By Jekyll & Minimal Mistakes.` from the page footer. 
