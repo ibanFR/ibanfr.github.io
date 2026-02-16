@@ -2,9 +2,9 @@
 title: "Getting Started with Minimal Mistakes"
 date: 2025-04-19T15:34:30-04:00
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Jekyll
+  - Minimal Mistakes
 ---
 
 This is a quick start guide to help you get up and running with the [Minimal Mistakes] theme.
