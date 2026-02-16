@@ -79,6 +79,13 @@ Assuming Jekyll and Bundler are installed on your computer:
 
 ## Licensing and Attribution
 
+When a repository contains code from multiple sources with different copyright holders, you should:
+
+1. Preserve all original license files and attributions from each source.
+2. Clearly indicate in your main README or a dedicated NOTICE/ATTRIBUTION file which parts of the repository come from which source, and under what license.
+3. Do not remove or alter the copyright/license headers in the original files.
+4. If you modify code from either source, note your changes and the date in the relevant files or in your attribution file
+
 
 [Just the Docs Jekyll theme]: https://just-the-docs.com/
 [just-the-docs template]: https://github.com/just-the-docs/just-the-docs-template
