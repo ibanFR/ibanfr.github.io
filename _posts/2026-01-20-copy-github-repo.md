@@ -5,9 +5,9 @@ header:
   overlay_image: /assets/images/getxo-gorrondatxe.jpg
   show_overlay_excerpt: false
 categories:
-  - blog
+  - Version Control
 tags:
-  - Guide
+  - GitHub
 ---
 
 This post explains how to create an independent copy of a GitHub repository with no connection to the original repository.
