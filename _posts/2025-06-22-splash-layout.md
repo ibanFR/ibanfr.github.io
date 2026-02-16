@@ -8,9 +8,9 @@ header:
     - label: "More Info"
       url: "https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout"
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Guide
+  - Minimal Mistakes
 ---
 
 After a morning of exploring different configurations of header images and overlays I realized that all I needed to 
