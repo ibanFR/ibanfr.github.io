@@ -7,9 +7,9 @@ header:
     - label: "More Info"
       url: "https://mmistakes.github.io/minimal-mistakes/docs/layouts/#header-overlay"
 categories:
-  - blog
+  - Static Site Generators
 tags:
-  - Guide
+  - Minimal Mistakes
 ---
 
 After testing the default behavior of the Minimal Mistakes plugin with header images I decided to try with Overlay 
