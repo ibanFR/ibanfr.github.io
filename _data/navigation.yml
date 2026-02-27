@@ -9,6 +9,15 @@ main:
     url: /posts/
   - title: "About"
     url: /about/
+posts:
+  - title: "Browse Archives"
+    children:
+      - title: "By Year"
+        url: /posts/
+      - title: "By Category"
+        url: /categories/
+      - title: "By Tag"
+        url: /tags/
 bdd:
   - title: Explanation
     url: /guides/bdd/
