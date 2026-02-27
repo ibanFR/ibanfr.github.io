@@ -23,8 +23,8 @@ Some of the items in the guide may not be relevant to every sprint, so feel free
 
 ### Review flagged work items in the Sprint Backlog
 
-### Example mapping sessions to clarify and confirm the acceptance criteria
+### Example mapping sessions to clarify and confirm the Acceptance Criteria
 
-### Develop Sprint Regression Plans for the functional areas affected by the Sprint scope
+### Develop Iteration Regression Plans for the functional areas affected by the Iteration scope
 
-### Incremental Design and Architecture to support the Sprint scope
+### Incremental Design and Architecture to support the Iteration scope
