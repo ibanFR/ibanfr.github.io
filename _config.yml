@@ -225,3 +225,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+enable_copy_code_button: true
