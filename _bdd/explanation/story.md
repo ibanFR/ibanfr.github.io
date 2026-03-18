@@ -22,8 +22,14 @@ A good User Story should follow the [INVEST] criteria:
 - **Testable**: The User Story should be testable, meaning that it should have clear acceptance criteria that can be
   used to verify that the story has been implemented correctly.
 
+## Job Stories
+
+A [Job Story] is a more detailed version of a User Story that focuses on the context and motivation behind the user's
+needs. It typically follows the format: "When [situation], I want to [motivation], so I can [expected outcome]."
+
 ## Other Resources
 
 See Cucumber website for more details on [User Stories](https://cucumber.io/docs/terms/user-story).
 
 [INVEST]: https://agilealliance.org/glossary/invest/
+[Job Story]: https://www.mountaingoatsoftware.com/blog/job-stories-offer-a-viable-alternative-to-user-stories
