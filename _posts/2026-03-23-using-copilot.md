@@ -118,6 +118,23 @@ style, project structure, or any specific requirements you have for the generate
 
 See [AGENTS.md] for more details on how to set up and use the `AGENTS.md` file.
 
+## Commit messages instructions
+
+You can also provide instructions to GitHub Copilot about how you want it to generate commit messages. This can be done
+by including specific guidelines in the `.github/git-commit-instructions.md` file in your repository:
+
+```markdown
+Use conventional commit format: type(scope): description.
+Use imperative mode: 'Add feature' not 'Added feature'.
+Keep subject line under 50 characters.
+Use types: feat, fix, docs, style, refactor, perf, test, chore, ci.
+Include scope when relevant (e.g., api, ui, auth).
+For additional details, use a well-structured body section.
+Use bullet points (`*`) for clarity.
+```
+
+See [Responsible use of GitHub Copilot for commit messages] for understanding its purposes, capabilities, and limitations.
+
 
 [GitHub Copilot documentation]: https://docs.github.com/copilot
 [What is GitHub Copilot?]: https://docs.github.com/en/copilot/get-started/what-is-github-copilot
@@ -128,3 +145,4 @@ See [AGENTS.md] for more details on how to set up and use the `AGENTS.md` file.
 [About customizing GitHub Copilot responses]: https://docs.github.com/en/copilot/concepts/prompting/response-customization
 [Adding personal custom instructions for GitHub Copilot]: https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-personal-instructions
 [AGENTS.md]: https://agents.md/
+[Responsible use of GitHub Copilot for commit messages]: https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation
