@@ -64,6 +64,9 @@ xp:
     children:
         - title: "Values, Principles, and Practices"
           url: /xp/reference/values-principles-practices/
+scrum:
+  - title: Explanation
+    url: /guides/scrum/
 lean:
     - title: Explanation
       url: /guides/lean/
