@@ -115,6 +115,9 @@ collections:
   coaching:
     output: true
     permalink: /:collection/:path/
+  scrum:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -214,6 +217,18 @@ defaults:
       sidebar:
         nav:
           - coaching
+  # _scrum
+  - scope:
+      path: ""
+      type: scrum
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - scrum
 
 
 
