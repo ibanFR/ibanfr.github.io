@@ -1,5 +1,5 @@
 ---
-title: Lean Software Development Guide
+title: Lean Software Development
 header:
   teaser: assets/images/lean/lean-agile-toolkit.jpeg
 order: 3
@@ -10,3 +10,4 @@ adaptability.
 
 {% include figure popup=true image_path="/assets/images/lean/lean-agile-toolkit.jpeg" alt="Lean Software Development Book Cover" %}
 
+[Access the Guide](/lean/){: .btn .btn--primary .btn--x-large}

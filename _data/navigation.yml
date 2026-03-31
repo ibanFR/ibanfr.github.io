@@ -73,7 +73,7 @@ scrum:
         url: /scrum/explanation/artifacts/
 lean:
     - title: Explanation
-      url: /guides/lean/
+      url: /lean/
       children:
         - title: "Lean Goodreads"
           url: /lean/explanation/lean-goodreads/
