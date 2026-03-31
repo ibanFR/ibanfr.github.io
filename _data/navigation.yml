@@ -68,6 +68,9 @@ xp:
           url: /xp/reference/values-principles-practices/
 scrum:
   - title: Explanation
+    children:
+      - title: "Scrum Artifacts"
+        url: /scrum/explanation/artifacts/
 lean:
     - title: Explanation
       url: /guides/lean/
