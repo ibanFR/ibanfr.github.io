@@ -1,5 +1,5 @@
 ---
-title: Scrum Guide
+title: Scrum
 header:
   teaser: "assets/images/scrum/2020-scrum-guide-cover.png"
 order: 2
