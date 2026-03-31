@@ -2,10 +2,7 @@
 title: Extreme Programming Guide
 header:
   teaser: assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png
-sidebar:
-  nav:
-    - xp
-order: 3
+order: 2
 ---
 
 Extreme Programming (XP) emphasizes customer satisfaction, flexibility, and rapid delivery of high-quality software.
@@ -17,5 +14,10 @@ Developers work together in pairs and as a group, with simple design and obsessi
 continually to keep it always just right for the current needs.
 
 {% include figure popup=true image_path="assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png" alt="XP Guide image" %}
+
+
+[Access the Guide](/xp/){: .btn .btn--primary .btn--x-large}
+
+
 
 

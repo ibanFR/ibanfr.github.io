@@ -2,10 +2,7 @@
 title: Behavior-Driven Development Guide
 header:
   teaser: assets/images/bdd/bdd.png
-sidebar:
-    nav:
-      - bdd
-order: 1
+order: 3
 ---
 
 Software development process that helps to build a shared understanding of the business requirements through
@@ -16,8 +13,4 @@ collaboration across roles to build a shared understanding of the problem to be 
 
 {% include figure popup=true image_path="/assets/images/bdd/bdd.png" alt="DDD Guide image" %}
 
-[Access the Guide](https://ibanfr.github.io/bdd-guide/){: .btn .btn--primary .btn--x-large}
-
-For more information on BDD, check out the Cucumber website:
-
-{% linkpreview "https://cucumber.io/docs/bdd/" %}
+[Access the Guide](/bdd/){: .btn .btn--primary .btn--x-large}

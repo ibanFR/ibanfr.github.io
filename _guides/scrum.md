@@ -2,32 +2,69 @@
 title: Scrum Guide
 header:
   teaser: "assets/images/scrum/2020-scrum-guide-cover.png"
-sidebar:
-  nav:
-    - scrum
-order: 3
+order: 5
 ---
 
-Scrum is a lightweight, empirically driven framework that helps teams tackle complex problems and deliver value
-incrementally. It emphasizes cross-functional collaboration, frequent inspection, and continuous adaptation.
+Scrum is a lightweight framework that helps people, teams, and organizations generate value through adaptive solutions
+for complex problems.
 
-Scrum provides a minimal set of roles, events, and artifacts that create a rhythm for planning, building, inspecting,
-and improving product work. Its simplicity makes it practical: teams use Scrum to reduce risk, learn quickly from
-reality, and continuously refine how they deliver value.
+Rather than a "methodology" with exhaustive instructions, Scrum is a purposefully incomplete framework. It defines only
+the essential parts required to implement Scrum theory, acting as a container within which you can employ various
+processes and techniques.
 
-Three accountabilities—Product Owner, Scrum Master, and Developers—work together to produce a usable, potentially
-releasable Increment each Sprint. The Product Owner focuses the team on maximizing product value, the Scrum Master
-serves the team and organization by removing impediments and coaching on Scrum, and the Developers design, build, and
-test the work.
+## The Theory of Scrum
 
-Work is organized into Sprints: fixed-length iterations that include Sprint Planning, the Daily Scrum, the Sprint
-Review, and the Sprint Retrospective. The Product Backlog, Sprint Backlog, and Increment are the key artifacts that make
-progress and decisions transparent.
+Scrum is founded on **empiricism** and **lean thinking**.
 
-This page is a concise, original summary based on the official Scrum Guide. For the authoritative and complete guide,
-see [The 2020 Scrum Guide].
+- Empiricism asserts that knowledge comes from experience and making decisions based on what is observed.
+- Lean thinking reduces waste and focuses on the essentials.
+
+### The Three Pillars of Empiricism
+
+To successfully implement Scrum, three pillars must support every aspect of the work:
+
+1. Transparency: The emergent process and work must be visible to those performing the work as well as those receiving
+   the work.
+2. Inspection: The Scrum artifacts and the progress toward agreed-to goals must be inspected frequently and diligently
+   to identify potentially undesirable variances or problems.
+3. Adaptation: If any aspects of a process deviate outside acceptable limits or if the resulting product is
+   unacceptable, the process being applied or the materials being produced must be adjusted.
+
+## The Scrum Framework
+
+The Scrum framework consists of Scrum Teams and their associated accountabilities, events, artifacts, and rules. Each
+component within the framework serves a specific purpose and is essential to Scrum’s success and usage.
+
+### The Scrum Team
+
+The fundamental unit of Scrum is a small team of people, a Scrum Team. The team consists of one Scrum Master, one
+Product Owner, and Developers. There are no sub-teams or hierarchies; it is a cohesive unit of professionals focused on
+one objective at a time: the Product Goal.
+
+### The Heart of Scrum: The Sprint
+
+Sprints are the heartbeat of Scrum, where ideas are turned into value. They are fixed-length events of one month or less
+to create consistency. A new Sprint starts immediately after the conclusion of the previous Sprint.
+
+### Artifacts & Commitments
+
+Each artifact contains a "commitment" to ensure it provides information that enhances transparency and focus against
+which progress can be measured:
+
+- The Product Backlog (Commitment: The Product Goal)
+- The Sprint Backlog (Commitment: The Sprint Goal)
+- The Increment (Commitment: The Definition of Done)
+
+## About This Resource
+
+While [The 2020 Scrum Guide] provides the "rules of the game," this guide is designed to help you navigate the "how-to"
+of daily practice. Here, we explore the practical application of these accountabilities and events to help your team
+move from understanding theory to delivering high-value products in a complex environment.
 
 {% include figure popup=true image_path="assets/images/scrum/2020-scrum-guide-cover.png" alt="Scrum Guide Cover
 Image" %}
+
+[Access the Guide](/scrum/){: .btn .btn--primary .btn--x-large}
+
 
 [The 2020 Scrum Guide]: https://scrumguides.org/scrum-guide.html

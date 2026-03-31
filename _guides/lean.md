@@ -1,11 +1,8 @@
 ---
-title: Lean Software Development
+title: Lean Software Development Guide
 header:
   teaser: assets/images/lean/lean-agile-toolkit.jpeg
-sidebar:
-  nav:
-    - lean
-order: 4
+order: 6
 ---
 
 Lean Software Development Guide outlines key practices that enable teams to deliver value efficiently while maintaining
