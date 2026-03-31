@@ -1,8 +1,8 @@
 ---
-title: Extreme Programming Guide
+title: Extreme Programming (XP)
 header:
   teaser: assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png
-order: 2
+order: 1
 ---
 
 Extreme Programming (XP) emphasizes customer satisfaction, flexibility, and rapid delivery of high-quality software.

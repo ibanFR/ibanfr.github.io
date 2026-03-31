@@ -2,7 +2,7 @@
 title: Scrum Guide
 header:
   teaser: "assets/images/scrum/2020-scrum-guide-cover.png"
-order: 5
+order: 2
 ---
 
 Scrum is a lightweight framework that helps people, teams, and organizations generate value through adaptive solutions

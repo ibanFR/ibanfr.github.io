@@ -2,7 +2,7 @@
 title: Technical Coaching Guide
 header:
     teaser: assets/images/technical-coaching/samman_Submark_dark_blue_small.png
-order: 1
+order: 6
 ---
 
 Technical coaches are skilled software developers who mentor individuals or teams to improve coding practices and code

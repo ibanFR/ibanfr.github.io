@@ -2,7 +2,7 @@
 title: Domain-Driven Design Guide
 header:
   teaser: assets/images/ddd.jpg
-order: 4
+order: 5
 ---
 
 An approach to software development that centers the development of a domain model that has a rich understanding 
