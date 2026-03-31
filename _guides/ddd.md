@@ -12,3 +12,7 @@ This guide contains definitions of DDD and fundamental concepts to help you adop
 
 {% include figure popup=true image_path="/assets/images/ddd/blue-book-cover.jpg" alt="DDD Guide image" %}
 
+
+[Access the Guide](/ddd/explanation/ddd-explanation/){: .btn .btn--primary .btn--x-large}
+
+
