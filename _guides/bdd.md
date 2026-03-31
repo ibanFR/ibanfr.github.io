@@ -1,5 +1,5 @@
 ---
-title: Behavior-Driven Development Guide
+title: Behavior-Driven Development
 header:
   teaser: assets/images/bdd/bdd.png
 order: 4

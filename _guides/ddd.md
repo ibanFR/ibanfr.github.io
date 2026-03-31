@@ -1,5 +1,5 @@
 ---
-title: Domain-Driven Design Guide
+title: Domain-Driven Design
 header:
   teaser: assets/images/ddd.jpg
 order: 5
