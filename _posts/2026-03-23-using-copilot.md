@@ -110,6 +110,37 @@ When writing functions, always:
 
 For more information on how to add personal custom instructions for GitHub Copilot, see [Adding personal custom instructions for GitHub Copilot].
 
+### Add repository-specific instructions for GitHub Copilot
+
+Repository custom instructions let you set **shared guidance** for Copilot that applies to everyone working in the repo.
+Use them when you want Copilot to consistently follow your project conventions (stack choices, architecture, naming,
+testing, PR expectations, etc.) without repeating that context in every prompt.
+
+Add a file at:
+
+* `.github/copilot-instructions.md`
+
+Keep it short, concrete, and written as “always/never/prefer” rules. For example:
+
+```markdown
+# Repository Copilot instructions
+
+## Tech stack
+- Prefer Ruby 3.3 and Jekyll conventions used in this site.
+- When editing posts, preserve front matter and existing link reference style.
+
+## Content conventions
+- Use headings in sentence case.
+- Prefer short paragraphs and bullet lists.
+- When adding commands, assume macOS + zsh.
+
+## Safety rails
+- Don’t change generated content under `_site/`.
+- Avoid large refactors; make minimal, targeted edits.
+```
+
+If you don’t want to write it from scratch, you can ask Copilot to generate the file for you. See: [Asking Copilot cloud agent to generate a copilot-instructions.md file](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=webui#asking-copilot-cloud-agent-to-generate-a-copilot-instructionsmd-file).
+
 ### AGENTS.md
 
 You can create an `AGENTS.md` file in the root of your repository to provide instructions to GitHub Copilot about how
