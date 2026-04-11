@@ -49,7 +49,7 @@ _site/                 # Build output (gitignored — never edit)
 
 ## Commit Message Convention
 
-See the full commit message guidelines in [.github/git-commit-instructions.md].
+All commit messages must follow the convention described in [.github/git-commit-instructions.md].
 
 ---
 
