@@ -46,6 +46,17 @@ posts_intro_row:
 
 {% include feature_row id="posts_intro_row" type="center" %}
 
+<style>
+.feature__item img, .archive__item img, .feature__wrapper img, .feature-row .archive__item-img, .feature-row .archive__item-image, .feature-row .archive__item .archive__item-img {
+  max-height: 180px;
+  object-fit: cover;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 <div class="feature__wrapper">
    {% for post in site.posts limit:3 %}
    <div class="feature__item">
