@@ -9,6 +9,7 @@ header:
         url: "/about/"
 excerpt: "Here you can find information about my projects, software development guides, and more."
 intro:
+  - title: "Welcome"
   - excerpt: "Hi there 👋 I'm Iván Fernández 👀—a passionate software engineer 💻 dedicated to fostering a safe environment 🌱 that encourages creative thinking 💡 and continuous learning."
 feature_row:
   - image_path: /assets/images/bio-photo.jpg
@@ -33,8 +34,29 @@ feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Discover my work"
+posts_intro_row:
+  - title: "Posts"
+    excerpt: "Browse a list of my recent posts, including topics on BDD, DDD, XP, Lean, Scrum, technical coaching, and AI tooling. Explore practical guides, case studies, and insights across these categories."
+    image_path: /assets/images/georgia-de-lotz-hdQGAz1pQ_M-unsplash.jpg
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="posts_intro_row" type="center" %}
+
+<div class="feature__wrapper">
+   {% for post in site.posts limit:3 %}
+   <div class="feature__item">
+      <div class="archive__item">
+         <div class="archive__item-body">
+            <h3 class="archive__item-title"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
+            <div class="archive__item-excerpt">
+               <p>{{ post.excerpt | markdownify }}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   {% endfor %}
+</div>
