@@ -37,7 +37,7 @@ feature_row:
 posts_intro_row:
   - title: "Posts"
     excerpt: "Browse a list of my recent posts, including topics on BDD, DDD, XP, Lean, Scrum, technical coaching, and AI tooling. Explore practical guides, case studies, and insights across these categories."
-    image_path: /assets/images/georgia-de-lotz-hdQGAz1pQ_M-unsplash.jpg
+    image_path: /assets/images/pages/georgia-de-lotz-hdQGAz1pQ_M-unsplash.jpg
 ---
 
 {% include feature_row id="intro" type="center" %}
