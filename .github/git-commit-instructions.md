@@ -4,6 +4,8 @@ This repository follows [Semantic Versioning (SemVer)](https://semver.org/) and 
 
 ## Commit Message Format
 
+> **Important:** You must include a **blank line** between the commit header, body, and footer. This is required for correct parsing and readability.
+
 ```
 <header>
 <BLANK LINE>
@@ -92,4 +94,3 @@ type: summary
 
 https://ibanfr.atlassian.net/browse/JIRA-ID
 ```
-
