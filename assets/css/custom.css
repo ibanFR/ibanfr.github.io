@@ -1,0 +1,8 @@
+/* Limit header banner image to ~1/3 of the viewport height */
+.page__hero-image {
+  max-height: 33vh;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+

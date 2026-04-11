@@ -2,10 +2,10 @@
 title: "GitHub Copilot IntelliJ plugin configuration"
 date: 2026-04-11
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/posts/GitHub-Copilot-Your-AI-Pair-Programmer-Plugin-for-JetBrains-IDEs-JetBrains-Marketplace-04-11-2026_09_56_PM.png
 categories:
   - AI
+  - Development Environments
 tags:
   - GitHub Copilot
   - IntelliJ IDEA
@@ -92,4 +92,3 @@ For more details, see [Using prompt files with GitHub Copilot].
 [AGENTS.md]: https://agents.md/
 
 [Using prompt files with GitHub Copilot]: https://docs.github.com/en/copilot/how-tos/copilot-chat/prompt-files
-
