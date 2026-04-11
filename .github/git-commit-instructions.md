@@ -4,7 +4,7 @@ This repository follows [Semantic Versioning (SemVer)](https://semver.org/) and 
 
 ## Commit Message Format
 
-> **Important:** You must include a **blank line** between the commit header, body, and footer. This is required for correct parsing and readability.
+> **Important:** You must include a **BLANK LINE** between the commit header, body, and footer. This is required for correct parsing and readability.
 
 ```
 <header>
@@ -64,6 +64,8 @@ docs: improve formatting in 01-context.md and 02-containers.md
 * Adjusted line breaks for better readability in user and dependency sections in 01-context.md
 * Enhanced table formatting for clarity in 02-containers.md
 * Aims to provide a more consistent and user-friendly documentation experience
+
+https://ibanfr.atlassian.net/browse/JIRA-ID
 ```
 
 **Instead of (no filenames in body bullets):**
@@ -74,6 +76,8 @@ docs: improve formatting in 01-context.md and 02-containers.md
 * Adjusted line breaks for better readability in user and dependency sections
 * Enhanced table formatting for clarity in containers documentation
 * Aims to provide a more consistent and user-friendly documentation experience
+
+https://ibanfr.atlassian.net/browse/JIRA-ID
 ```
 
 ## Jira Issue Link in Footer (Required)
@@ -88,9 +92,9 @@ docs: improve formatting in 01-context.md and 02-containers.md
 
 ```
 type: summary
-
+<BLANK LINE>
 * Detail 1
 * Detail 2
-
+<BLANK LINE>
 https://ibanfr.atlassian.net/browse/JIRA-ID
 ```
