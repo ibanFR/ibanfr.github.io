@@ -48,7 +48,7 @@ posts_intro_row:
 
 <style>
 .feature__item img, .archive__item img, .feature__wrapper img, .feature-row .archive__item-img, .feature-row .archive__item-image, .feature-row .archive__item .archive__item-img {
-  max-height: 180px;
+  max-height: 360px;
   object-fit: cover;
   width: auto;
   display: block;
