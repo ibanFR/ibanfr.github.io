@@ -8,10 +8,10 @@ header:
       - label: "About Me"
         url: "/about/"
 excerpt: "Here you can find information about my work, software development guides, and more."
-intro:
+intro_row:
   - title: "Welcome"
   - excerpt: "Hi there 👋 I'm Iván Fernández 👀—a passionate software engineer 💻 dedicated to fostering a safe environment 🌱 that encourages creative thinking 💡 and continuous learning."
-feature_row:
+main_row:
   - image_path: /assets/images/pages/skillwell.jpg
     alt: "me"
     title: "About Me"
@@ -19,7 +19,7 @@ feature_row:
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Read more"
-  - image_path: /assets/images/compass.jpg
+  - image_path: assets/images/pages/guides.png
     alt: "guides"
     title: "Guides"
     excerpt: "A curated collection of guides covering modern software engineering practices — including 
@@ -34,28 +34,38 @@ feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Discover my work"
-posts_intro_row:
+posts_row:
   - title: "Posts"
-    excerpt: "Browse a list of my recent posts, including topics on BDD, DDD, XP, Lean, Scrum, technical coaching, and AI tooling. Explore practical guides, case studies, and insights across these categories."
-    image_path: /assets/images/pages/georgia-de-lotz-hdQGAz1pQ_M-unsplash.jpg
+    excerpt: "Browse a list of my recent posts, including topics on AI assisted development, technical 
+    coaching, and extreme programming. Explore practical guides, case studies, and insights across these categories."
+    image_path: /assets/images/pages/posts.jpg
+    url: "/posts/"
+    btn_class: "btn--primary"
+    btn_label: "Read the posts"
 ---
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
-
-{% include feature_row id="posts_intro_row" type="center" %}
-
 <style>
-.feature__item img, .archive__item img, .feature__wrapper img, .feature-row .archive__item-img, .feature-row .archive__item-image, .feature-row .archive__item .archive__item-img {
-  max-height: 360px;
+.feature__item img,
+.archive__item img,
+.feature__wrapper img,
+.feature-row .archive__item-img,
+.feature-row .archive__item-image,
+.feature-row .archive__item .archive__item-img {
+  width:100%;
+  width: 398px;         /* or any fixed value, e.g., 100% for responsive */
+  height: 298px;        /* or any fixed value */
   object-fit: cover;
-  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 </style>
+
+{% include feature_row id="intro_row" type="center" %}
+
+{% include feature_row id="main_row" %}
+
+{% include feature_row id="posts_row" type="left" %}
 
 <div class="feature__wrapper">
    {% for post in site.posts limit:3 %}
