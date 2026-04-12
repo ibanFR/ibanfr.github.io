@@ -65,19 +65,8 @@ posts_row:
 
 {% include feature_row id="main_row" %}
 
-{% include feature_row id="posts_row" type="left" %}
+{% include feature_row id="posts_row" type="center" %}
 
-<div class="feature__wrapper">
-   {% for post in site.posts limit:3 %}
-   <div class="feature__item">
-      <div class="archive__item">
-         <div class="archive__item-body">
-            <h3 class="archive__item-title"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title }}</a></h3>
-            <div class="archive__item-excerpt">
-               <p>{{ post.excerpt | markdownify }}</p>
-            </div>
-         </div>
-      </div>
-   </div>
-   {% endfor %}
-</div>
+{% for post in site.posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+{% endfor %}
