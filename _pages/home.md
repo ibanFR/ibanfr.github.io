@@ -3,16 +3,16 @@ layout: splash
 title: Welcome to my personal website!
 permalink: /
 header:
-    overlay_image: /assets/images/getxo-gorrondatxe.jpg
+    overlay_image: /assets/images/bio-photo.jpg
     actions:
       - label: "About Me"
         url: "/about/"
-excerpt: "Here you can find information about my projects, software development guides, and more."
+excerpt: "Here you can find information about my work, software development guides, and more."
 intro:
   - title: "Welcome"
   - excerpt: "Hi there 👋 I'm Iván Fernández 👀—a passionate software engineer 💻 dedicated to fostering a safe environment 🌱 that encourages creative thinking 💡 and continuous learning."
 feature_row:
-  - image_path: /assets/images/bio-photo.jpg
+  - image_path: /assets/images/pages/skillwell.jpg
     alt: "me"
     title: "About Me"
     excerpt: "Discover my journey as a software engineer, my passions, and the principles that drive my work."
