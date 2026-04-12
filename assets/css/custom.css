@@ -6,3 +6,10 @@
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .page__hero--overlay .wrapper {
+    max-width: 66%;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
