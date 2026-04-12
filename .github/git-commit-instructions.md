@@ -1,10 +1,12 @@
 # Git Commit Instructions
 
-This repository follows [Semantic Versioning (SemVer)](https://semver.org/) and uses a standardized commit message format to ensure changes are clearly communicated and version increments are consistent.
+This repository uses a standardized commit message format to ensure changes are clearly communicated and version
+increments are consistent.
 
 ## Commit Message Format
 
-> **Important:** You must include a **BLANK LINE** between the commit header, body, and footer. This is required for correct parsing and readability.
+> **Important:** You must include a **BLANK LINE** between the commit header, body, and footer. This is required for
+> correct parsing and readability.
 
 ```
 <header>
@@ -51,7 +53,8 @@ This repository follows [Semantic Versioning (SemVer)](https://semver.org/) and 
 
 **Always include a commit message body.** Use bullet points to explain the change:
 
-- **What changed:** Describe the specific modifications made to the codebase — **include the filename(s)** in each bullet point when relevant
+- **What changed:** Describe the specific modifications made to the codebase — **include the filename(s)** in each
+  bullet point when relevant
 - **Why it changed:** Explain the business or technical reason for this change
 - **How it impacts the system:** Detail any affected modules, layers, or functionality
 - **Related decisions:** Reference any architectural decisions (ADRs) or important design choices
@@ -82,7 +85,8 @@ https://ibanfr.atlassian.net/browse/JIRA-ID
 
 ## Jira Issue Link in Footer (Required)
 
-**The Jira issue link is mandatory for all commits.** Extract the Jira issue ID from your branch name and include the full Jira issue link in the commit message footer.
+**The Jira issue link is mandatory for all commits.** Extract the Jira issue ID from your branch name and include the
+full Jira issue link in the commit message footer.
 
 * **Extract the ID:** Find the Jira ID pattern (e.g., `SITE-33`) from your branch name
 * **Create the link:** Format it as the full URL: `https://ibanfr.atlassian.net/browse/JIRA-ID`
@@ -92,22 +96,26 @@ https://ibanfr.atlassian.net/browse/JIRA-ID
 
 ```
 type: summary
-<BLANK LINE>
+
 * Detail 1
 * Detail 2
-<BLANK LINE>
+
 https://ibanfr.atlassian.net/browse/JIRA-ID
 ```
+
 ## Commit Message Tips for Shell Usage
 
-When committing from the shell, ensure blank lines between the commit header, body, and footer by using multiple `-m` flags:
+When committing from the shell, ensure blank lines between the commit header, body, and footer by using multiple `-m`
+flags:
 
   ```sh
   git commit -m "feat: update Copilot plugin post" \
              -m "* Limit header image height and crop to top\n* Add custom.css and link in head.html" \
              -m "https://ibanfr.atlassian.net/browse/SITE-16"
   ```
+
 This produces:
+
   ```
   feat: update Copilot plugin post
 
