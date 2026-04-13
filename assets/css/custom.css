@@ -1,3 +1,16 @@
+/* Uniform aspect ratio for teaser images in archive/grid/list views */
+.archive__item-teaser {
+  aspect-ratio: 16 / 9;    /* 2/1 classic blog banner; 3/1 wide banner feel; 16/9 for video-style; 4/3 classic photo or 1/1 for square */
+  overflow: hidden;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* crop to fill; use "contain" to letterbox instead */
+  object-position: center; /* center the image; adjust to "top", or center 20% if your images have subjects near the top */
+}
+
 /* Limit header banner image to ~1/3 of the viewport height */
 .page__hero-image {
   max-height: 33vh;
