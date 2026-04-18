@@ -80,6 +80,36 @@ To verify everything is working, try the following prompt in Copilot Chat:
 can you read the summary of this jira task <your-jira-task>
 ```
 
+## Configure Copilot cloud agent
+
+1. On GitHub, navigate to your repository.
+2. Go to **Settings** → ** Copilot** → **Cloud agent**.
+3. Under **Model Context Protocol (MCP)**, add a new MCP Server configuration with the following details:
+
+```json
+{
+  "mcpServers": {
+    "atlassian-rovo-mcp": {
+      "command": "npx",
+      "type": "local",
+      "tools": ["*"],
+      "args": [
+        "mcp-remote@latest",
+        "https://mcp.atlassian.com/v1/mcp",
+        "--header",
+        "Authorization: Basic $ATLASSIAN_API_KEY"
+      ],
+      "env": {
+         "ATLASSIAN_API_KEY": "$COPILOT_MCP_ATLASSIAN_API_KEY"
+      }
+    }
+  }
+}
+
+```
+
+See [Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp)
+
 ## mcp-atlassian
 
 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) is an open-source MCP Server implementation for Atlassian
