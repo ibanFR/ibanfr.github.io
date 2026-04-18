@@ -55,24 +55,24 @@ Alternatively, install it from the MCP Server Registry:
 2. Click the MCP Registry icon in the top right corner.
 3. Search for **Atlassian Rovo MCP Server** and click **Install**.
 
-## Start the MCP Server
+### Start the MCP Server
 
 1. Open the Model Context Protocol server configuration file: `mcp.json`.
 2. Click **Start** above the `com.atlassian/atlassian-mcp-server` server entry.
 
-## Grant access
+### Grant access
 
 1. When prompted, a browser window will open.
 2. Grant access to your Jira site as instructed.
 
-## Verify the connection
+### Verify the connection
 
 1. Open the GitHub Copilot MCP Log:
     - **View** → **Tool Windows** → **GitHub Copilot MCP Log**.
 2. Select the server: `com.atlassian/atlassian-mcp-server`.
 3. Confirm that the connection is successful and no errors are reported.
 
-## Test the integration
+### Test the integration
 
 To verify everything is working, try the following prompt in Copilot Chat:
 
@@ -80,9 +80,10 @@ To verify everything is working, try the following prompt in Copilot Chat:
 can you read the summary of this jira task <your-jira-task>
 ```
 
----
+## mcp-atlassian
 
-**Tip:** If you encounter issues, review the MCP Log for error messages and consult
-the [Atlassian Rovo MCP Server documentation](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/).
+[mcp-atlassian](https://github.com/sooperset/mcp-atlassian) is an open-source MCP Server implementation for Atlassian
+products, including Jira, Confluence, and Compass.
 
-
+This project provides a reference implementation of an MCP Server that connects to Atlassian's APIs, enabling developers
+to build their own integrations or use it as a starting point for their MCP Server development.
