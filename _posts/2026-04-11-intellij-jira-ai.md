@@ -1,32 +1,88 @@
 ---
-title: intellij-jira-ai
+title: Connecting Copilot with Jira using Atlassian Rovo MCP Server
 date: 2026-04-11
 header:
   image: /assets/images/posts/atlassian-mcp.png
   teaser: /assets/images/posts/atlassian-mcp.png
+---
+
+Connect GitHub Copilot with Jira using the Atlassian Rovo MCP Server to enable real-time interaction with Jira, Compass,
+and Confluence data directly from your development environment. This guide walks you through the setup and verification
+process.
+
+For more details, see the official
+guide: [Getting started with the Atlassian Rovo MCP Server](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/).
+
+## Configure Atlassian Rovo MCP Server
+
+1. Enable the API Token authentication method:
+    - See
+      the [authentication configuration instructions](https://support.atlassian.com/security-and-access-policies/docs/control-atlassian-rovo-mcp-server-settings/#Configure-authentication).
+
+## Configure GitHub Copilot IntelliJ plugin
+
+1. Open **Settings** → **Tools** → **GitHub Copilot** → **Model Context Protocol**.
+2. Under **Model Context Protocol**, select **Configure**.
+3. Add a new MCP Server configuration with the following details:
+
+   ```json
+   {
+     "servers": {
+       "com.atlassian/atlassian-mcp-server": {
+         "type": "http",
+         "url": "https://mcp.atlassian.com/v1/mcp",
+         "x-metadata": {
+           "registry": {
+             "api": {
+               "baseUrl": "https://api.mcp.github.com",
+               "version": "v0.1"
+             },
+             "mcpServer": {
+               "name": "com.atlassian/atlassian-mcp-server",
+               "version": "1.1.1"
+             }
+           }
+         }
+       }
+     }
+   }
+   ```
+
+Alternatively, install it from the MCP Server Registry:
+
+1. Open GitHub Copilot Chat.
+    - **View** → **Tool Windows** → **GitHub Copilot Chat**.
+2. Click the MCP Registry icon in the top right corner.
+3. Search for **Atlassian Rovo MCP Server** and click **Install**.
+
+## Start the MCP Server
+
+1. Open the Model Context Protocol server configuration file: `mcp.json`.
+2. Click **Start** above the `com.atlassian/atlassian-mcp-server` server entry.
+
+## Grant access
+
+1. When prompted, a browser window will open.
+2. Grant access to your Jira site as instructed.
+
+## Verify the connection
+
+1. Open the GitHub Copilot MCP Log:
+    - **View** → **Tool Windows** → **GitHub Copilot MCP Log**.
+2. Select the server: `com.atlassian/atlassian-mcp-server`.
+3. Confirm that the connection is successful and no errors are reported.
+
+## Test the integration
+
+To verify everything is working, try the following prompt in Copilot Chat:
+
+```text
+can you read the summary of this jira task <your-jira-task>
+```
 
 ---
 
-## Configure Jira
-- Configure Atlassian Rovo MCP Server.
-- Enable API Token authentication method.
+**Tip:** If you encounter issues, review the MCP Log for error messages and consult
+the [Atlassian Rovo MCP Server documentation](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/).
 
-## Configure IntelliJ
-- Install Atlassian Rovo MCP Server.
-
-## Start the MCP Server
-- Open the `mcp.json` file.
-- Start the server.
-
-## Grant Access
-- A browser is launched.
-- Grant access to your Jira site.
-
-## Return to IntelliJ
-- Return to IntelliJ after granting access.
-
-## Test Integration
-- Test the integration with the prompt:
-  
-  `can you read the summary of this jira task <your-jira-task>`
 
