@@ -87,3 +87,25 @@ products, including Jira, Confluence, and Compass.
 
 This project provides a reference implementation of an MCP Server that connects to Atlassian's APIs, enabling developers
 to build their own integrations or use it as a starting point for their MCP Server development.
+
+### Configuration
+
+To configure the mcp-atlassian server, update the MCP configuration file (`mcp.json`) with the following details:
+
+```json
+{
+  "mcpServers": {
+    "mcp-atlassian": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "JIRA_URL": "https://ibanfr.atlassian.net",
+        "JIRA_USERNAME": "yourjirauser@email.com",
+        "JIRA_API_TOKEN": "${{ secrets.COPILOT_MCP_ATLASSIAN_API_TOKEN }}"
+      },
+      "tools": ["*"]
+    }
+  }
+}
+```
