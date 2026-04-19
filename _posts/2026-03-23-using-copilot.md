@@ -221,6 +221,10 @@ style, project structure, or any specific requirements you have for the generate
 
 See [AGENTS.md] for more details on how to set up and use the `AGENTS.md` file.
 
+## Other resources
+
+- [Stop Using /init for AGENTS.md](https://medium.com/@addyosmani/stop-using-init-for-agents-md-3086a333f380)
+
 
 [GitHub Copilot documentation]: https://docs.github.com/copilot
 
