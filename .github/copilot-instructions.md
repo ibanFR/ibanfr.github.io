@@ -115,3 +115,10 @@ bundle exec jekyll serve --trace 2>&1
 
 The build emits ~230 Sass deprecation warnings from the upstream Minimal Mistakes theme (slash-division). These are
 expected and safe to ignore — they come from `minimal-mistakes-jekyll` gem internals and cannot be fixed here.
+
+## Atlassian Rovo MCP
+
+When connected to atlassian-rovo-mcp:
+- **MUST** use Jira project key = SITE
+- **MUST** use cloudId = "https://ibanfr.atlassian.net" (do NOT call getAccessibleAtlassianResources)
+- **MUST** use `maxResults: 10` or `limit: 10` for ALL Jira JQL and Confluence CQL search operations.
