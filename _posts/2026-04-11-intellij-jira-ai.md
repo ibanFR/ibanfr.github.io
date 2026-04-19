@@ -22,9 +22,14 @@ See the [atlassian-mcp-server GitHub repository](https://github.com/atlassian/at
 
 ### Allow tools to authenticate via API token
 
-1. Enable the API Token authentication method:
-    - See
-      the [authentication configuration instructions](https://support.atlassian.com/security-and-access-policies/docs/control-atlassian-rovo-mcp-server-settings/#Configure-authentication).
+By default, users connect to the Atlassian Rovo MCP Server with OAuth 2.1. As an admin, you can enable API tokens to
+handle non-active scenarios, where no users complete the consent flow.
+
+1. Go to [Atlassian Administration](https://admin.atlassian.com/). Select your organization if you have more than one
+2. Select **Rovo** → **Rovo MCP server**
+3. Under **Authentication methods**, enable **API token**
+
+See the [authentication configuration instructions](https://support.atlassian.com/security-and-access-policies/docs/control-atlassian-rovo-mcp-server-settings/#Configure-authentication).
 
 ## Configure GitHub Copilot IntelliJ plugin
 
@@ -69,8 +74,12 @@ Alternatively, install it from the MCP Server Registry:
 
 ### Grant access
 
+The Atlassian Rovo MCP Server uses OAuth 2.1 as its primary authentication mechanism, which requires you to grant access to your Atlassian account.
+
 1. When prompted, a browser window will open.
 2. Grant access to your Jira site as instructed.
+
+For more details, see [Authentication and authorization](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/authentication-and-authorization/).
 
 ### Verify the connection
 
