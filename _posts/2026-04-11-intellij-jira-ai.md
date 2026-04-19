@@ -178,6 +178,25 @@ Install the GitHub Copilot CLI if you haven't already:
 
 For more details, see the official documentation: [Configuring authentication via API token](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/configuring-authentication-via-api-token/).
 
+## Update custom instructions for coding agents
+
+Update your [AGENTS.md](https://agents.md/) with the Markdown below to reduce discovery tool calls, save time and tokens, and set maximum 
+search results.
+
+```markdown
+
+## Atlassian Rovo MCP
+
+When connected to atlassian-rovo-mcp:
+- **MUST** use Jira project key = YOURPROJ
+- **MUST** use Confluence spaceId = "123456"
+- **MUST** use cloudId = "https://yoursite.atlassian.net" (do NOT call getAccessibleAtlassianResources)
+- **MUST** use `maxResults: 10` or `limit: 10` for ALL Jira JQL and Confluence CQL search operations.
+```
+
+See [Tips and tricks](https://github.com/atlassian/atlassian-mcp-server#tips-and-tricks) in the atlassian-mcp-server 
+documentation for more recommendations on optimizing your integration.
+
 ## mcp-atlassian
 
 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) is an open-source MCP Server implementation for Atlassian
