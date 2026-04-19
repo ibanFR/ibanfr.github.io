@@ -13,7 +13,14 @@ process.
 For more details, see the official
 guide: [Getting started with the Atlassian Rovo MCP Server](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/).
 
-## Configure Atlassian Rovo MCP Server
+## Atlassian Rovo MCP Server
+
+The Atlassian Rovo MCP Server is Atlassian's official implementation of the Model Context Protocol (MCP) that connects Atlassian's 
+tools with your LLM, IDE, or agent platforms of choice..
+
+See the [atlassian-mcp-server GitHub repository](https://github.com/atlassian/atlassian-mcp-server) for more details.
+
+## Configure  Rovo MCP Server
 
 1. Enable the API Token authentication method:
     - See
@@ -139,3 +146,6 @@ To configure the mcp-atlassian server, update the MCP configuration file (`mcp.j
   }
 }
 ```
+## Other resources
+
+- [Guía práctica MCP: cómo conectar Atlassian con herramientas externas](https://blog.deiser.com/es/guia-practica-mcp-como-conectar-atlassian-con-herramientas-externas)
