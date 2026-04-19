@@ -68,7 +68,7 @@ docs: improve formatting in 01-context.md and 02-containers.md
 * Enhanced table formatting for clarity in 02-containers.md
 * Aims to provide a more consistent and user-friendly documentation experience
 
-https://ibanfr.atlassian.net/browse/JIRA-ID
+https://ibanfr.atlassian.net/browse/SITE-XX
 ```
 
 **Instead of (no filenames in body bullets):**
@@ -80,7 +80,7 @@ docs: improve formatting in 01-context.md and 02-containers.md
 * Enhanced table formatting for clarity in containers documentation
 * Aims to provide a more consistent and user-friendly documentation experience
 
-https://ibanfr.atlassian.net/browse/JIRA-ID
+https://ibanfr.atlassian.net/browse/SITE-ID
 ```
 
 ## Jira Issue Link in Footer (Required)
@@ -89,7 +89,7 @@ https://ibanfr.atlassian.net/browse/JIRA-ID
 full Jira issue link in the commit message footer.
 
 * **Extract the ID:** Find the Jira ID pattern (e.g., `SITE-33`) from your branch name
-* **Create the link:** Format it as the full URL: `https://ibanfr.atlassian.net/browse/JIRA-ID`
+* **Create the link:** Format it as the full URL: `https://ibanfr.atlassian.net/browse/SITE-ID`
 * **Append to footer:** Place the complete link as the last line of your commit message
 
 **Example:**
@@ -100,7 +100,7 @@ type: summary
 * Detail 1
 * Detail 2
 
-https://ibanfr.atlassian.net/browse/JIRA-ID
+https://ibanfr.atlassian.net/browse/SITE-ID
 ```
 
 ## Commit Message Tips for Shell Usage
