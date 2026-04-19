@@ -15,12 +15,12 @@ guide: [Getting started with the Atlassian Rovo MCP Server](https://support.atla
 
 ## Atlassian Rovo MCP Server
 
-The Atlassian Rovo MCP Server is Atlassian's official implementation of the Model Context Protocol (MCP) that connects Atlassian's 
-tools with your LLM, IDE, or agent platforms of choice..
+The Atlassian Rovo MCP Server is Atlassian's official implementation of the Model Context Protocol (MCP) that connects
+Atlassian's tools with your LLM, IDE, or agent platforms of choice..
 
 See the [atlassian-mcp-server GitHub repository](https://github.com/atlassian/atlassian-mcp-server) for more details.
 
-## Configure  Rovo MCP Server
+### Allow tools to authenticate via API token
 
 1. Enable the API Token authentication method:
     - See
@@ -99,7 +99,9 @@ can you read the summary of this jira task <your-jira-task>
     "atlassian-rovo-mcp": {
       "command": "npx",
       "type": "local",
-      "tools": ["*"],
+      "tools": [
+        "*"
+      ],
       "args": [
         "mcp-remote@latest",
         "https://mcp.atlassian.com/v1/mcp",
@@ -107,7 +109,7 @@ can you read the summary of this jira task <your-jira-task>
         "Authorization: Basic $ATLASSIAN_API_KEY"
       ],
       "env": {
-         "ATLASSIAN_API_KEY": "$COPILOT_MCP_ATLASSIAN_API_KEY"
+        "ATLASSIAN_API_KEY": "$COPILOT_MCP_ATLASSIAN_API_KEY"
       }
     }
   }
@@ -116,6 +118,45 @@ can you read the summary of this jira task <your-jira-task>
 ```
 
 See [Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp)
+
+## Configure GitHub Copilot CLI
+
+Install the GitHub Copilot CLI if you haven't already:
+
+   ```bash
+   npm install -g @github/copilot-cli
+   ```
+
+### Configure authentication with an API token
+
+1. [Create an API token](https://id.atlassian.com/manage-profile/security/api-tokens):
+    - Give it a name (e.g., "Copilot CLI") and select the expiry date.
+    - Select the apps you'd like this API token to access (e.g., Jira, Rovo MCP, etc.).
+    - Select the Scopes for the token (e.g., `read:jira-user`, `read:jira-work`, etc.).
+    - Create the token and copy it to a secure location (you won't be able to see it again).
+2. Base64‑encode the credentials:
+
+    ```bash
+    # Format: email:api_token
+    echo -n "your.email@example.com:YOUR_API_TOKEN_HERE" | base64
+   ```
+
+3. Configure the MCP Server in the Copilot CLI configuration file (`~/.copilot/config.json`) with the following details:
+
+```json
+{
+  "mcpServers": {
+    "atlassian-rovo-mcp": {
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "headers": {
+        "Authorization": "Basic <base64(email:api_token)>"
+      }
+    }
+  }
+}
+```
+
+For more details, see the official documentation: [Configuring authentication via API token](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/configuring-authentication-via-api-token/).
 
 ## mcp-atlassian
 
@@ -135,17 +176,22 @@ To configure the mcp-atlassian server, update the MCP configuration file (`mcp.j
     "mcp-atlassian": {
       "type": "stdio",
       "command": "uvx",
-      "args": ["mcp-atlassian"],
+      "args": [
+        "mcp-atlassian"
+      ],
       "env": {
-        "JIRA_URL": "https://ibanfr.atlassian.net",
-        "JIRA_USERNAME": "yourjirauser@email.com",
+        "JIRA_URL": "https://yourjirasite.atlassian.net",
+        "JIRA_USERNAME": "your.email@example.com",
         "JIRA_API_TOKEN": "${{ secrets.COPILOT_MCP_ATLASSIAN_API_TOKEN }}"
       },
-      "tools": ["*"]
+      "tools": [
+        "*"
+      ]
     }
   }
 }
 ```
+
 ## Other resources
 
 - [Guía práctica MCP: cómo conectar Atlassian con herramientas externas](https://blog.deiser.com/es/guia-practica-mcp-como-conectar-atlassian-con-herramientas-externas)
