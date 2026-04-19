@@ -31,6 +31,21 @@ handle non-active scenarios, where no users complete the consent flow.
 
 See the [authentication configuration instructions](https://support.atlassian.com/security-and-access-policies/docs/control-atlassian-rovo-mcp-server-settings/#Configure-authentication).
 
+### Create an API token
+
+Authentication via API token lets MCP clients authenticate without an interactive OAuth consent screen.
+
+1. Log in to your Atlassian account.
+2. Select your profile icon → **Account settings** → **Security**.
+3. Under **API tokens**, click **Create and manage API tokens**.
+4. Click **Create API token with scopes**.
+   - Give it a name (e.g., "Copilot CLI") and select the expiry date.
+   - Select the apps you'd like this API token to access (e.g., Jira, Rovo MCP, etc.).
+   - Select the Scopes for the token (e.g., `read:jira-user`, `read:jira-work`, etc.).
+   - Create the token and copy it to a secure location (you won't be able to see it again).
+
+For more details, see the [Manage API tokens for your Atlassian account](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/).
+
 ## Configure GitHub Copilot IntelliJ plugin
 
 1. Open **Settings** → **Tools** → **GitHub Copilot** → **Model Context Protocol**.
@@ -138,11 +153,7 @@ Install the GitHub Copilot CLI if you haven't already:
 
 ### Configure authentication with an API token
 
-1. [Create an API token](https://id.atlassian.com/manage-profile/security/api-tokens):
-    - Give it a name (e.g., "Copilot CLI") and select the expiry date.
-    - Select the apps you'd like this API token to access (e.g., Jira, Rovo MCP, etc.).
-    - Select the Scopes for the token (e.g., `read:jira-user`, `read:jira-work`, etc.).
-    - Create the token and copy it to a secure location (you won't be able to see it again).
+1. [Create an API token](#create-an-api-token) in your Atlassian account with the necessary scopes (e.g., `read:jira-user`,`read:jira-work`, etc.). 
 2. Base64‑encode the credentials:
 
     ```bash
