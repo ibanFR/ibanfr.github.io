@@ -224,6 +224,7 @@ See [AGENTS.md] for more details on how to set up and use the `AGENTS.md` file.
 ## Other resources
 
 - [Stop Using /init for AGENTS.md](https://medium.com/@addyosmani/stop-using-init-for-agents-md-3086a333f380)
+- [10 Must-Have Skills for Claude (and Any Coding Agent) in 2026](https://medium.com/@unicodeveloper/10-must-have-skills-for-claude-and-any-coding-agent-in-2026-b5451b013051)
 
 
 [GitHub Copilot documentation]: https://docs.github.com/copilot
