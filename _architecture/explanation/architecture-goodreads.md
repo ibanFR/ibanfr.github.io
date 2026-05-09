@@ -46,6 +46,6 @@ organizations.
 It focuses on how architects can move between strategic business conversations and technical implementation details,
 while helping teams deliver better outcomes across the enterprise.
 
-{% include figure popup=true image_path="/assets/images/architecture/download.webp" alt="The Software Architect Elevator
-book cover" caption="The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise, Gregor
-Hohpe" %}
+{% include figure popup=true image_path="/assets/images/architecture/the-software-architect-elevator.webp" 
+alt="The Software Architect Elevator book cover" caption="The Software Architect Elevator: Redefining the Architect's 
+Role in the Digital Enterprise, Gregor Hohpe (2020)" %}
