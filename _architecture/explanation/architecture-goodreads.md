@@ -49,3 +49,14 @@ while helping teams deliver better outcomes across the enterprise.
 {% include figure popup=true image_path="/assets/images/architecture/the-software-architect-elevator.webp" 
 alt="The Software Architect Elevator book cover" caption="The Software Architect Elevator: Redefining the Architect's 
 Role in the Digital Enterprise, Gregor Hohpe (2020)" %}
+
+## The C4 Model
+
+The C4 Model by Simon Brown explains how to describe software architecture with a small set of hierarchical diagrams
+that stay understandable at different levels of detail.
+
+It is especially useful for communicating architecture clearly across teams and for keeping documentation lightweight,
+consistent, and practical.
+
+{% include figure popup=true image_path="/assets/images/architecture/the-c4-model-cover.webp" alt="The C4 Model book cover"
+caption="The C4 Model: Visualizing Software Architecture, Simon Brown (2026)" %}
