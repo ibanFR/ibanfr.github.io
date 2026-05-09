@@ -119,6 +119,9 @@ collections:
   scrum:
     output: true
     permalink: /:collection/:path/
+  architecture:
+    output: true
+    permalink: /:collection/:path/
 
 
 
@@ -221,7 +224,7 @@ defaults:
       sidebar:
         nav:
           - coaching
-  # _scrum
+   # _scrum
   - scope:
       path: ""
       type: scrum
@@ -233,6 +236,18 @@ defaults:
       sidebar:
         nav:
           - scrum
+  # _architecture
+  - scope:
+      path: ""
+      type: architecture
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      sidebar:
+        nav:
+          - architecture
 
 
 

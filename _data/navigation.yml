@@ -84,5 +84,10 @@ coaching:
       children:
         - title: "Technical Coaching Goodreads"
           url: /coaching/explanation/coaching-goodreads/
+architecture:
+    - title: Explanation
+      children:
+        - title: "Software Architecture Goodreads"
+          url: /architecture/explanation/architecture-goodreads/
 
 
