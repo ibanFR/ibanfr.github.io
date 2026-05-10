@@ -45,9 +45,9 @@ and preserves user context.
 
 Use OAuth 2.1 when:
 
-- a user is present and can complete the consent flow
-- you want user-level consent and context
-- you are using interactive apps or integrations
+- A user is present and can complete the consent flow
+- You want user-level consent and context
+- You are using interactive apps or integrations
 
 #### Steps to authenticate via OAuth 2.1
 
@@ -70,9 +70,9 @@ API token authentication is available only if your organization admin has enable
 
 Use API token authentication when:
 
-- no user is present
-- you need non-interactive, machine-to-machine access
-- you can securely manage token storage, rotation, and audit
+- No user is present
+- You need non-interactive, machine-to-machine access
+- You can securely manage token storage, rotation, and audit
 
 #### Enable API token authentication
 
