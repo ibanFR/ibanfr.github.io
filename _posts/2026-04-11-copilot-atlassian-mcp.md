@@ -223,11 +223,8 @@ See [Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)]
 
 ## Configure GitHub Copilot CLI
 
-Install the GitHub Copilot CLI if you haven't already:
-
-```bash
-npm install -g @github/copilot-cli
-```
+You need Copilot CLI installed before you can configure Atlassian MCP. See the GitHub documentation for installation 
+instructions: [Install Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
 
 ### Configure authentication with OAuth 2.1
 
