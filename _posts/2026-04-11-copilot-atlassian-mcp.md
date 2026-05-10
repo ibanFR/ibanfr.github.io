@@ -30,11 +30,10 @@ See the [atlassian-mcp-server GitHub repository](https://github.com/atlassian/at
 
 Atlassian Rovo MCP Server supports two authentication methods:
 
-| Method    | Best for                                         | Header                                                                                |
-|-----------|--------------------------------------------------|---------------------------------------------------------------------------------------|
-| OAuth 2.1 | Interactive, user-driven tools                   | `Authorization: Bearer <access_token>`                                                |
-| API token | Non-interactive and machine-to-machine scenarios | `Authorization: Basic <base64(email:api_token)>` or `Authorization: Bearer <api_key>` |
-
+| Method    | Best for                                         | Header                                           |
+|-----------|--------------------------------------------------|--------------------------------------------------|
+| OAuth 2.1 | Interactive, user-driven tools                   | `Authorization: Bearer <access_token>`           |
+| API token | Non-interactive and machine-to-machine scenarios | `Authorization: Basic <base64(email:api_token)>` |
 
 ### Authenticate via OAuth 2.1
 
@@ -187,7 +186,8 @@ so the value is available to your MCP configuration.
 7. Add a secret named `COPILOT_MCP_ATLASSIAN_API_KEY` with the Base64-encoded API token as the value.
 8. Click **Add secret**.
 
-For more details, see [Create and manage secrets for GitHub Copilot cloud agent](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables).
+For more details,
+see [Create and manage secrets for GitHub Copilot cloud agent](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables).
 
 ### Add MCP Server configuration for Copilot cloud agent
 
@@ -223,7 +223,7 @@ See [Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)]
 
 ## Configure GitHub Copilot CLI
 
-You need Copilot CLI installed before you can configure Atlassian MCP. 
+You need Copilot CLI installed before you can configure Atlassian MCP.
 
 See the GitHub documentation for installation
 instructions: [Install Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
@@ -247,7 +247,7 @@ instructions: [Install Copilot CLI](https://docs.github.com/en/copilot/how-tos/c
     }
     ```
 2. When you run a Copilot CLI command that requires access to the MCP Server, you will be prompted to authenticate via
-   OAuth 2.1. 
+   OAuth 2.1.
 3. Follow the instructions to complete the authentication flow.
 
 ### Configure authentication with an API token
