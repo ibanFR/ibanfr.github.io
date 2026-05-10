@@ -170,14 +170,22 @@ can you read the summary of this jira task <your-jira-task>
 Copilot cloud agent uses **Agents** secrets and variables. For MCP servers, use a name that starts with `COPILOT_MCP_`
 so the value is available to your MCP configuration.
 
-### Configure secret for Copilot cloud agent
+### Configure secrets for Copilot cloud agent
 
-1. On GitHub, navigate to the main page of your repository.
-2. Click **Settings**.
-3. In the **Security** section, click **Secrets and variables**, then click **Agents**.
-4. Open the **Secrets** tab and click **New repository secret**.
-5. Add a secret named `COPILOT_MCP_ATLASSIAN_API_KEY` with your Atlassian API token as the value.
-6. Click **Add secret**.
+1. [Create an API token](#create-an-api-token) in your Atlassian account with the necessary scopes (e.g.,
+   `read:jira-user`,`read:jira-work`, etc.).
+2. Base64‑encode the credentials:
+
+    ```bash
+    # Format: email:api_token
+    echo -n "your.email@example.com:YOUR_API_TOKEN_HERE" | base64
+   ```
+3. On GitHub, navigate to the main page of your repository.
+4. Click **Settings**.
+5. In the **Security** section, click **Secrets and variables**, then click **Agents**.
+6. Open the **Secrets** tab and click **New repository secret**.
+7. Add a secret named `COPILOT_MCP_ATLASSIAN_API_KEY` with the Base64-encoded API token as the value.
+8. Click **Add secret**.
 
 For more details, see [Create and manage secrets for GitHub Copilot cloud agent](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables).
 
@@ -240,7 +248,8 @@ npm install -g @github/copilot-cli
     }
     ```
 2. When you run a Copilot CLI command that requires access to the MCP Server, you will be prompted to authenticate via
-   OAuth 2.1. Follow the instructions to complete the authentication flow.
+   OAuth 2.1. 
+3. Follow the instructions to complete the authentication flow.
 
 ### Configure authentication with an API token
 
@@ -255,18 +264,22 @@ npm install -g @github/copilot-cli
 
 3. Configure the MCP Server in the Copilot CLI configuration file (`~/.copilot/config.json`) with the following details:
 
-```json
-{
-  "mcpServers": {
-    "atlassian-rovo-mcp": {
-      "url": "https://mcp.atlassian.com/v1/mcp",
-      "headers": {
-        "Authorization": "Basic <base64(email:api_token)>"
+    ```json
+    {
+      "mcpServers": {
+        "atlassian-rovo-mcp": {
+          "type": "http",
+          "url": "https://mcp.atlassian.com/v1/mcp",
+          "headers": {
+            "Authorization": "Basic <base64(email:api_token)>"
+          },
+          "tools": [
+            "*"
+          ]
+        }
       }
     }
-  }
-}
-```
+    ```
 
 For more details, see the official
 documentation: [Configuring authentication via API token](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/configuring-authentication-via-api-token/).
@@ -315,7 +328,7 @@ To configure the mcp-atlassian server, update the MCP configuration file (`mcp.j
       "env": {
         "JIRA_URL": "https://yourjirasite.atlassian.net",
         "JIRA_USERNAME": "your.email@example.com",
-        "JIRA_API_TOKEN": "${{ secrets.COPILOT_MCP_ATLASSIAN_API_TOKEN }}"
+        "JIRA_API_TOKEN": "{% raw %}${{ secrets.COPILOT_MCP_ATLASSIAN_API_TOKEN }}{% endraw %}"
       },
       "tools": [
         "*"
