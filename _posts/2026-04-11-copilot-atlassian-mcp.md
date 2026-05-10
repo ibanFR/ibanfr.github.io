@@ -167,6 +167,22 @@ can you read the summary of this jira task <your-jira-task>
 
 ## Configure Copilot cloud agent
 
+Copilot cloud agent uses **Agents** secrets and variables. For MCP servers, use a name that starts with `COPILOT_MCP_`
+so the value is available to your MCP configuration.
+
+### Configure secret for Copilot cloud agent
+
+1. On GitHub, navigate to the main page of your repository.
+2. Click **Settings**.
+3. In the **Security** section, click **Secrets and variables**, then click **Agents**.
+4. Open the **Secrets** tab and click **New repository secret**.
+5. Add a secret named `COPILOT_MCP_ATLASSIAN_API_KEY` with your Atlassian API token as the value.
+6. Click **Add secret**.
+
+For more details, see [Create and manage secrets for GitHub Copilot cloud agent](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables).
+
+### Add MCP Server configuration for Copilot cloud agent
+
 1. On GitHub, navigate to your repository.
 2. Go to **Settings** → **Copilot** → **Cloud agent**.
 3. Under **Model Context Protocol (MCP)**, add a new MCP Server configuration with the following details:
@@ -201,9 +217,9 @@ See [Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)]
 
 Install the GitHub Copilot CLI if you haven't already:
 
-   ```bash
-   npm install -g @github/copilot-cli
-   ```
+```bash
+npm install -g @github/copilot-cli
+```
 
 ### Configure authentication with OAuth 2.1
 
