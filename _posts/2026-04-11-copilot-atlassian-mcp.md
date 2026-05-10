@@ -131,7 +131,7 @@ Alternatively, install it from the MCP Server Registry:
 
 1. Open GitHub Copilot Chat.
     - **View** → **Tool Windows** → **GitHub Copilot Chat**.
-2. Click the MCP Registry icon in the top right corner.
+2. Click the **MCP Registry** icon in the top right corner.
 3. Search for **Atlassian Rovo MCP Server** and click **Install**.
 
 ### Start the MCP Server
@@ -168,7 +168,7 @@ can you read the summary of this jira task <your-jira-task>
 ## Configure Copilot cloud agent
 
 1. On GitHub, navigate to your repository.
-2. Go to **Settings** → ** Copilot** → **Cloud agent**.
+2. Go to **Settings** → **Copilot** → **Cloud agent**.
 3. Under **Model Context Protocol (MCP)**, add a new MCP Server configuration with the following details:
 
 ```json
