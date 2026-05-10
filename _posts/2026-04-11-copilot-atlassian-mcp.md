@@ -4,11 +4,17 @@ date: 2026-04-11
 header:
   image: /assets/images/posts/atlassian-mcp.png
   teaser: /assets/images/posts/atlassian-mcp.png
+categories:
+  - AI
+tags:
+  - GitHub Copilot
+  - Atlassian Rovo MCP Server
 ---
 
 Connect GitHub Copilot with Jira using the Atlassian Rovo MCP Server to enable real-time interaction with Jira, Compass,
-and Confluence data directly from your development environment. This guide walks you through the setup and verification
-process.
+and Confluence data directly from your development environment.
+
+This guide walks you through the setup and verification process.
 
 For more details, see the official
 guide: [Getting started with the Atlassian Rovo MCP Server](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/).
@@ -39,12 +45,13 @@ Authentication via API token lets MCP clients authenticate without an interactiv
 2. Select your profile icon → **Account settings** → **Security**.
 3. Under **API tokens**, click **Create and manage API tokens**.
 4. Click **Create API token with scopes**.
-   - Give it a name (e.g., "Copilot CLI") and select the expiry date.
-   - Select the apps you'd like this API token to access (e.g., Jira, Rovo MCP, etc.).
-   - Select the Scopes for the token (e.g., `read:jira-user`, `read:jira-work`, etc.).
-   - Create the token and copy it to a secure location (you won't be able to see it again).
+    - Give it a name (e.g., "Copilot CLI") and select the expiry date.
+    - Select the apps you'd like this API token to access (e.g., Jira, Rovo MCP, etc.).
+    - Select the Scopes for the token (e.g., `read:jira-user`, `read:jira-work`, etc.).
+    - Create the token and copy it to a secure location (you won't be able to see it again).
 
-For more details, see the [Manage API tokens for your Atlassian account](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/).
+For more details, see
+the [Manage API tokens for your Atlassian account](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/).
 
 ## Configure GitHub Copilot IntelliJ plugin
 
@@ -89,12 +96,14 @@ Alternatively, install it from the MCP Server Registry:
 
 ### Grant access
 
-The Atlassian Rovo MCP Server uses OAuth 2.1 as its primary authentication mechanism, which requires you to grant access to your Atlassian account.
+The Atlassian Rovo MCP Server uses OAuth 2.1 as its primary authentication mechanism, which requires you to grant access
+to your Atlassian account.
 
 1. When prompted, a browser window will open.
 2. Grant access to your Jira site as instructed.
 
-For more details, see [Authentication and authorization](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/authentication-and-authorization/).
+For more details,
+see [Authentication and authorization](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/authentication-and-authorization/).
 
 ### Verify the connection
 
@@ -153,7 +162,8 @@ Install the GitHub Copilot CLI if you haven't already:
 
 ### Configure authentication with an API token
 
-1. [Create an API token](#create-an-api-token) in your Atlassian account with the necessary scopes (e.g., `read:jira-user`,`read:jira-work`, etc.). 
+1. [Create an API token](#create-an-api-token) in your Atlassian account with the necessary scopes (e.g.,
+   `read:jira-user`,`read:jira-work`, etc.).
 2. Base64‑encode the credentials:
 
     ```bash
@@ -176,25 +186,27 @@ Install the GitHub Copilot CLI if you haven't already:
 }
 ```
 
-For more details, see the official documentation: [Configuring authentication via API token](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/configuring-authentication-via-api-token/).
+For more details, see the official
+documentation: [Configuring authentication via API token](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/configuring-authentication-via-api-token/).
 
 ## Update custom instructions for coding agents
 
-Update your [AGENTS.md](https://agents.md/) with the Markdown below to reduce discovery tool calls, save time and tokens, and set maximum 
-search results.
+Update your [AGENTS.md](https://agents.md/) with the Markdown below to reduce discovery tool calls, save time and
+tokens, and set maximum search results.
 
 ```markdown
 
 ## Atlassian Rovo MCP
 
 When connected to atlassian-rovo-mcp:
+
 - **MUST** use Jira project key = YOURPROJ
 - **MUST** use Confluence spaceId = "123456"
 - **MUST** use cloudId = "https://yoursite.atlassian.net" (do NOT call getAccessibleAtlassianResources)
 - **MUST** use `maxResults: 10` or `limit: 10` for ALL Jira JQL and Confluence CQL search operations.
 ```
 
-See [Tips and tricks](https://github.com/atlassian/atlassian-mcp-server#tips-and-tricks) in the atlassian-mcp-server 
+See [Tips and tricks](https://github.com/atlassian/atlassian-mcp-server#tips-and-tricks) in the atlassian-mcp-server
 documentation for more recommendations on optimizing your integration.
 
 ## mcp-atlassian
