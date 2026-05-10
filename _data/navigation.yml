@@ -89,5 +89,8 @@ architecture:
       children:
         - title: "Software Architecture Goodreads"
           url: /architecture/explanation/architecture-goodreads/
-
+    - title: Reference
+      children:
+        - title: "C4 Model"
+          url: /architecture/reference/c4-model-reference/
 
