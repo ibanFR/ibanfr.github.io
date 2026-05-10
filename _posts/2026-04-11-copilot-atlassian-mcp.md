@@ -26,10 +26,26 @@ Atlassian's tools with your LLM, IDE, or agent platforms of choice..
 
 See the [atlassian-mcp-server GitHub repository](https://github.com/atlassian/atlassian-mcp-server) for more details.
 
-### Allow tools to authenticate via API token
+### Authenticate via OAuth 2.1
 
-By default, users connect to the Atlassian Rovo MCP Server with OAuth 2.1. As an admin, you can enable API tokens to
-handle non-active scenarios, where no users complete the consent flow.
+The Atlassian Rovo MCP Server uses OAuth 2.1 as its primary authentication mechanism, providing a secure and
+standardized way for users to authorize access to resources via an interactive consent flow.
+
+#### Steps to authenticate via OAuth 2.1
+
+1. When prompted by your tool (e.g., Copilot CLI, Copilot Chat, or IDE plugin), select **Sign in with Atlassian**.
+2. A browser window will open. Log in with your Atlassian account.
+3. Review the requested permissions and grant access.
+4. Once consent is granted, you will be redirected and the tool will complete authentication automatically.
+
+For more details, see the [OAuth 2.1 authentication guide](https://support.atlassian.com/atlassian-rovo-mcp-server/docs/authentication-and-authorization/).
+
+### Authenticate via API token
+
+
+#### Allow tools to authenticate via API token
+
+As a Jira admin, you can enable API tokens to handle non-active scenarios, where no users complete the consent flow.
 
 1. Go to [Atlassian Administration](https://admin.atlassian.com/). Select your organization if you have more than one
 2. Select **Rovo** → **Rovo MCP server**
@@ -37,7 +53,7 @@ handle non-active scenarios, where no users complete the consent flow.
 
 See the [authentication configuration instructions](https://support.atlassian.com/security-and-access-policies/docs/control-atlassian-rovo-mcp-server-settings/#Configure-authentication).
 
-### Create an API token
+#### Create an API token
 
 Authentication via API token lets MCP clients authenticate without an interactive OAuth consent screen.
 
