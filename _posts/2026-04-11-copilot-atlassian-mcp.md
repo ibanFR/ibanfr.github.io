@@ -205,6 +205,27 @@ Install the GitHub Copilot CLI if you haven't already:
    npm install -g @github/copilot-cli
    ```
 
+### Configure authentication with OAuth 2.1
+
+1. Configure the MCP Server in the Copilot CLI configuration file (`~/.copilot/config.json`) with the following details:
+
+    ```json
+    {
+      "mcpServers": {
+        "atlassian-rovo-mcp": {
+          "type": "http",
+          "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+          "headers": {},
+          "tools": [
+            "*"
+          ]
+        }
+      }
+    }
+    ```
+2. When you run a Copilot CLI command that requires access to the MCP Server, you will be prompted to authenticate via
+   OAuth 2.1. Follow the instructions to complete the authentication flow.
+
 ### Configure authentication with an API token
 
 1. [Create an API token](#create-an-api-token) in your Atlassian account with the necessary scopes (e.g.,
