@@ -1,9 +1,18 @@
-/* Limit header banner image to ~1/3 of the viewport height */
+/*
+Keep post header images at a consistent on-screen size
+Makes the image span the full available width.
+Sets a responsive height that:
+- never goes below 240px
+- prefers ~1/3 of the viewport height
+- never exceeds 360px 
+Crop the image instead of stretching it.
+Keep the crop centered.
+*/
 .page__hero-image {
-  max-height: 33vh;
+  width: 100%;  
+  height: clamp(240px, 33vh, 360px);
   object-fit: cover;
-  object-position: top;
-  width: 100%;
+  object-position: center;
 }
 
 @media (max-width: 600px) {
