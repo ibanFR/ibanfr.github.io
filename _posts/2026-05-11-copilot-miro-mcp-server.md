@@ -3,6 +3,7 @@ title: Connecting GitHub Copilot CLI with Miro using the Miro MCP Server
 date: 2026-05-11
 header:
   image: /assets/images/posts/miro-mcp.jpg
+  teaser: /assets/images/posts/miro-mcp.jpg
 categories:
   - AI
 tags:
