@@ -213,7 +213,7 @@ other instructions...
 All commit messages must follow the convention described in [.github/git-commit-instructions.md].
 ```
 
-##### Agent Instructions
+#### Agent Instructions
 
 You can create an `AGENTS.md` file in the root of your repository to provide instructions to GitHub Copilot about how
 you want it to respond when generating code for that repository. This file can include information about your coding
