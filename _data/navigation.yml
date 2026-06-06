@@ -71,6 +71,10 @@ scrum:
     children:
       - title: "Scrum Artifacts"
         url: /scrum/explanation/artifacts/
+  - title: Reference
+    children:
+      - title: "Sprint Planning Meeting"
+        url: /scrum/reference/sprint-planning-meeting/
 lean:
     - title: Explanation
       url: /lean/
