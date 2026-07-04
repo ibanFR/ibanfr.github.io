@@ -104,12 +104,7 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 
 ## Commit convention
 
-Full format is defined in `.github/git-commit-instructions.md`. Summary:
-
-- Header: `<type>: <summary>` — type is one of `feat|fix|refactor|test|build|ci|docs`; summary in imperative, lowercase, no trailing period. `build` = Gemfile/`_config.yml`; `ci` = workflow files. Include filename(s) in the summary when relevant.
-- **Always include a body** with bullet points (what / why / impact), naming filenames in the bullets.
-- **Mandatory footer:** a Jira link `https://ibanfr.atlassian.net/browse/SITE-XX` (extract `SITE-<id>` from the branch name).
-- Keep blank lines between header, body, and footer — from the shell use multiple `-m` flags.
+**Read [.github/git-commit-instructions.md](.github/git-commit-instructions.md)** — it defines the commit message format for this repository.
 
 ## Atlassian Rovo MCP
 
