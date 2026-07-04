@@ -1,5 +1,5 @@
-# CLAUDE.md - Claude Code-specific instructions only
-
 @AGENTS.md
 
-There are no Claude-specific instructions beyond what `AGENTS.md` covers. Add any here if that changes.
+## Claude Code-specific instructions
+
+This file contains Claude Code-specific instructions only. Common instructions for coding agents are contained in `AGENTS.md`.
