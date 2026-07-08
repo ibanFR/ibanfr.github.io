@@ -80,17 +80,7 @@ Start the Copilot CLI and follow these steps during the OAuth flow:
 Once authorization is complete, Copilot CLI caches the access token and subsequent commands use it automatically.
 
 
-### Step 3: Test the connection
-
-Try a basic Miro-related prompt:
-
-```bash
-can you list my miro boards?
-```
-
-Copilot should respond with a list of your Miro boards, confirming that the connection is working.
-
-### Check MCP server status
+### Step 3: Check MCP server status
 
 1. Run the command to manage MCP Server Configuration:
 
@@ -151,18 +141,7 @@ completes the sign-in.
 Claude Code stores the access token securely and refreshes it automatically. If a refresh fails, Claude Code points
 you to `/mcp` where you can **Re-authenticate**.
 
-### Step 3: Test the connection
-
-Ask Claude Code a Miro-related question:
-
-```text
-can you list my miro boards?
-```
-
-Claude Code should respond with a list of your Miro boards, confirming the connection is working. You can check the
-server status at any time with the `/mcp` command or `claude mcp list`.
-
-### Check MCP server status
+### Step 3: Check MCP server status
 
 1. Open the MCP panel to manage your servers:
 
@@ -185,6 +164,17 @@ server status at any time with the `/mcp` command or `claude mcp list`.
       User MCPs (/Users/ivan/.claude.json)
       miro · ✔ connected · 35 tools
     ```
+
+## Test the connection
+
+With the server connected, try a basic Miro-related prompt in your assistant:
+
+```text
+can you list my miro boards?
+```
+
+Your assistant should respond with a list of your Miro boards, confirming the connection is working. You can recheck
+the server status at any time — `/mcp show` in Copilot CLI, or `/mcp` and `claude mcp list` in Claude Code.
 
 ## Security and best practices
 
