@@ -2,7 +2,8 @@
 title: "Adding Link Previews to your Jekyll Site"
 date: 2025-07-03
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/jekyll-header.png
+  teaser: /assets/images/posts/jekyll-teaser.png
 categories:
   - Static Site Generators
 ---
