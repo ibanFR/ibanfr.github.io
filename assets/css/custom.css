@@ -16,6 +16,17 @@ Center the crop instead of showing only the top.
   object-position: center;
 }
 
+/*
+List/archive teasers (archive-single type="list", e.g. /posts/, category and
+tag pages) have no height cap in the theme, so a full-width teaser would render
+very large. Cap it to a banner and center-crop, matching the grid treatment.
+*/
+.list__item .archive__item-teaser img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (max-width: 600px) {
   .page__hero--overlay .wrapper {
     max-width: 66%;
