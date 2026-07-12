@@ -2,7 +2,8 @@
 title: "[DORA community] - Continuous Improvement, Accelerated: The AI Catalyst for DORA Capabilities"
 date: 2026-03-31
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/dora-header.png
+  teaser: /assets/images/posts/dora-teaser.png
 categories:
   - AI
 tags:
