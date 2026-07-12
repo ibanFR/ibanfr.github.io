@@ -1,7 +1,7 @@
 ---
 title: Technical Coaching
 header:
-    teaser: assets/images/technical-coaching/samman_Submark_dark_blue_small.png
+    teaser: assets/images/technical-coaching/samman_Submark_dark_blue_small-teaser.png
 order: 6
 ---
 

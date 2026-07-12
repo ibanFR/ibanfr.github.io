@@ -1,7 +1,7 @@
 ---
 title: Extreme Programming (XP)
 header:
-  teaser: assets/images/xp/explanation/goodreads/extreme-programming-explained-cover.png
+  teaser: assets/images/xp/explanation/goodreads/extreme-programming-explained-cover-teaser.png
 order: 1
 ---
 

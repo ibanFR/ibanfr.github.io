@@ -1,7 +1,7 @@
 ---
 title: Lean Software Development
 header:
-  teaser: assets/images/lean/lean-agile-toolkit.jpeg
+  teaser: assets/images/lean/lean-agile-toolkit-teaser.jpeg
 order: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Software Architecture
 header:
-  teaser: assets/images/architecture/clean-architecture.webp
+  teaser: assets/images/architecture/clean-architecture-teaser.png
 order: 7
 ---
 

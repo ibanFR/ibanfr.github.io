@@ -1,7 +1,7 @@
 ---
 title: Domain-Driven Design
 header:
-  teaser: assets/images/ddd.jpg
+  teaser: assets/images/ddd-teaser.jpg
 order: 5
 ---
 

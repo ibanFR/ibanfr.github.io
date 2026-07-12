@@ -1,7 +1,7 @@
 ---
 title: Behavior-Driven Development
 header:
-  teaser: assets/images/bdd/bdd.png
+  teaser: assets/images/bdd/bdd-teaser.png
 order: 4
 ---
 
