@@ -171,7 +171,7 @@ Keep it short, concrete, and written as “always/never/prefer” rules. For exa
 If you don’t want to write it from scratch, you can ask Copilot to generate the file for you.
 See: [Asking Copilot cloud agent to generate a copilot-instructions.md file](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=webui#asking-copilot-cloud-agent-to-generate-a-copilot-instructionsmd-file).
 
-## Commit message instructions
+#### Commit message instructions
 
 Add instructions to `.github/copilot-instructions.md` for GitHub Copilot to generate commit messages that follow your
 team's conventions and best practices.
@@ -213,13 +213,28 @@ other instructions...
 All commit messages must follow the convention described in [.github/git-commit-instructions.md].
 ```
 
-## AGENTS.md files
+#### Agent Instructions
 
 You can create an `AGENTS.md` file in the root of your repository to provide instructions to GitHub Copilot about how
 you want it to respond when generating code for that repository. This file can include information about your coding
 style, project structure, or any specific requirements you have for the generated code.
 
 See [AGENTS.md] for more details on how to set up and use the `AGENTS.md` file.
+
+## Agents
+
+GitHub Copilot can do more than suggest code: it can also act on your behalf when you connect it to the right tools
+and permissions. For example, it can help create pull requests, manage issues, or trigger deployments.
+
+### Agent Skills
+
+Agent skills are reusable bundles of instructions, scripts, and resources that Copilot can load when a task needs
+specialized context. They help Copilot perform better in focused workflows without repeating the same setup every time.
+
+The Agent Skills specification is an [open standard](https://github.com/agentskills/agentskills) used by a range of
+different AI systems.
+
+See [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) for more information.
 
 ## Other resources
 

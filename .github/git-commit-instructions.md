@@ -11,9 +11,9 @@ increments are consistent.
 ```
 <header>
 <BLANK LINE>
-<optional body>
+<body>
 <BLANK LINE>
-<footer>
+<optional footer>
 ```
 
 ## Commit Message Header
@@ -46,8 +46,6 @@ increments are consistent.
 - **Include filenames in the summary when relevant**
     - Prefer: `docs: improve formatting in 01-context.md and 02-containers.md`
     - Over: `docs: improve formatting in context and containers documentation`
-    - Prefer: `test: add edge case coverage in LoginPage.test.tsx`
-    - Over: `test: add edge case coverage in login page tests`
 
 ## Commit Message Body
 
@@ -59,34 +57,14 @@ increments are consistent.
 - **How it impacts the system:** Detail any affected modules, layers, or functionality
 - **Related decisions:** Reference any architectural decisions (ADRs) or important design choices
 
-**Example — prefer (filenames in body bullets):**
+## Commit Message Footer
 
-```
-docs: improve formatting in 01-context.md and 02-containers.md
+The footer holds the trailing metadata of the commit message: an **optional** Jira issue link and **optional** `Co-authored-by:` trailers.
 
-* Adjusted line breaks for better readability in user and dependency sections in 01-context.md
-* Enhanced table formatting for clarity in 02-containers.md
-* Aims to provide a more consistent and user-friendly documentation experience
+### Jira Issue Link in Footer (Optional)
 
-https://ibanfr.atlassian.net/browse/SITE-XX
-```
-
-**Instead of (no filenames in body bullets):**
-
-```
-docs: improve formatting in 01-context.md and 02-containers.md
-
-* Adjusted line breaks for better readability in user and dependency sections
-* Enhanced table formatting for clarity in containers documentation
-* Aims to provide a more consistent and user-friendly documentation experience
-
-https://ibanfr.atlassian.net/browse/SITE-ID
-```
-
-## Jira Issue Link in Footer (Required)
-
-**The Jira issue link is mandatory for all commits.** Extract the Jira issue ID from your branch name and include the
-full Jira issue link in the commit message footer.
+**The Jira issue link is optional.** When a commit relates to a Jira issue, extract the issue ID from your branch name
+and include the full Jira issue link in the commit message footer.
 
 * **Extract the ID:** Find the Jira ID pattern (e.g., `SITE-33`) from your branch name
 * **Create the link:** Format it as the full URL: `https://ibanfr.atlassian.net/browse/SITE-ID`
@@ -103,24 +81,23 @@ type: summary
 https://ibanfr.atlassian.net/browse/SITE-ID
 ```
 
-## Commit Message Tips for Shell Usage
+### Co-Authors (Optional)
 
-When committing from the shell, ensure blank lines between the commit header, body, and footer by using multiple `-m`
-flags:
+Optional — add only when a commit is the work of more than one author (a pair, or a coding agent such as Claude Code or Copilot). Credit each with a `Co-authored-by:` trailer.
 
-  ```sh
-  git commit -m "feat: update Copilot plugin post" \
-             -m "* Limit header image height and crop to top\n* Add custom.css and link in head.html" \
-             -m "https://ibanfr.atlassian.net/browse/SITE-16"
-  ```
+* **Format:** `Co-authored-by: Name <email>` — one trailer per co-author, with no blank lines between them
+* **Email:** use the address tied to the co-author's GitHub account (or their GitHub no-reply email) — attribution only counts when the email matches the account
+* **Placement:** at the **very end** of the message, after the Jira link, preceded by a blank line
 
-This produces:
+**Example:**
 
-  ```
-  feat: update Copilot plugin post
+```
+type: summary 
 
-  * Limit header image height and crop to top
-  * Add custom.css and link in head.html
+* Detail 1
+* Detail 2
 
-  https://ibanfr.atlassian.net/browse/SITE-16
-  ```
+https://etuhub.atlassian.net/browse/JIRA-KEY
+
+Co-authored-by: Ada Lovelace <ada@example.com>
+```
