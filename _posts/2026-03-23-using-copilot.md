@@ -2,7 +2,8 @@
 title: "Using GitHub Copilot"
 date: 2026-03-23
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/github-copilot-header.png
+  teaser: /assets/images/posts/github-copilot-teaser.png
 categories:
   - AI
 tags:
