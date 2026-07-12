@@ -95,6 +95,12 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 - Headings in sentence case.
 - Prefer short paragraphs and bullet lists.
 
+### Images
+
+- **`feature_row` / teaser images**: use **500 × 300 px (5:3 aspect ratio)** — the Minimal Mistakes recommended teaser size. Keep every image in a given `feature_row` at the same ratio so cards render uniformly.
+  - The theme does not enforce an aspect ratio: teasers are rendered `width: 100%` and clipped at `max-height: 200px` with no `object-fit`. Mismatched source ratios therefore display inconsistently. Normalize the source images (e.g. `sips --resampleWidth 500 <file> && sips -c 300 500 <file>` for a centered crop) rather than adding custom CSS.
+  - Name feature-row images without a ratio suffix (`posts.jpg`, not `posts-5x3.jpg`).
+
 ## Safety rails
 
 - **Never edit or commit files under `_site/`** — gitignored, generated at build time.
