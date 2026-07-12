@@ -2,8 +2,7 @@
 title: "Configure your Logitech MX Master 4 mouse on Ubuntu with Solaar"
 date: 2026-02-14
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Operating Systems
 tags:

@@ -2,8 +2,7 @@
 title: Connecting AI coding assistants with Miro using the Miro MCP Server
 date: 2026-05-11
 header:
-  overlay_image: /assets/images/posts/miro-mcp-overlay.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/posts/miro-mcp-header.jpg
   teaser: /assets/images/posts/miro-mcp-teaser.jpg
 categories:
   - AI

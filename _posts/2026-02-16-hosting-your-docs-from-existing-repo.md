@@ -2,8 +2,7 @@
 title: "Hosting your site's documentation from an existing repository"
 date: 2026-02-14
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Static Site Generators
 tags:

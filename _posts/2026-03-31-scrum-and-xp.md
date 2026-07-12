@@ -2,8 +2,7 @@
 title: "Scrum and XP"
 date: 2026-03-31
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Agile
 tags:

@@ -2,8 +2,7 @@
 title: "Getting Started with Minimal Mistakes"
 date: 2025-04-19T15:34:30-04:00
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Static Site Generators
 tags:
