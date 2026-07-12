@@ -2,7 +2,7 @@
 title: "Guardrailed agentic loops: letting agents run without letting them run away"
 date: 2026-07-04
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
+  overlay_image: /assets/images/posts/anthropic-overlay.png
   show_overlay_excerpt: false
 categories:
   - AI
