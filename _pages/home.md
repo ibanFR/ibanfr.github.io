@@ -38,7 +38,7 @@ posts_row:
   - title: "Posts"
     excerpt: "Browse a list of my recent posts, including topics on AI assisted development, technical 
     coaching, and extreme programming. Explore practical guides, case studies, and insights across these categories."
-    image_path: /assets/images/pages/posts-2x1.jpg
+    image_path: /assets/images/pages/posts.jpg
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "Read the posts"
