@@ -2,7 +2,8 @@
 title: "Hosting your site's documentation from an existing repository"
 date: 2026-02-14
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/jekyll-header.png
+  teaser: /assets/images/posts/jekyll-teaser.png
 categories:
   - Static Site Generators
 tags:
