@@ -2,8 +2,9 @@
 title: "Configure GitHub branch protection"
 date: 2026-07-12
 header:
-  overlay_image: /assets/images/compass.jpg
+  overlay_image: /assets/images/posts/github-logo.png
   show_overlay_excerpt: false
+  teaser: /assets/images/posts/github-teaser.png
 categories:
   - Version Control
 tags:

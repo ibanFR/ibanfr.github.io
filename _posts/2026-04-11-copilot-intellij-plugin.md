@@ -2,8 +2,10 @@
 title: "GitHub Copilot IntelliJ plugin configuration"
 date: 2026-04-11
 header:
-  image: /assets/images/posts/GitHub-Copilot-Your-AI-Pair-Programmer-Plugin-for-JetBrains-IDEs-JetBrains-Marketplace-04-11-2026_09_56_PM.png
-  teaser: /assets/images/posts/GitHub-Copilot-Your-AI-Pair-Programmer-Plugin-for-JetBrains-IDEs-JetBrains-Marketplace-04-11-2026_09_56_PM.png
+  overlay_image: /assets/images/posts/copilot-intellij-overlay.png
+  overlay_filter: 0.5
+  show_overlay_excerpt: false
+  teaser: /assets/images/posts/copilot-intellij-teaser.png
 categories:
   - AI
   - Development Environments
