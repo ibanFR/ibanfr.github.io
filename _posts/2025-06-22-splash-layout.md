@@ -2,11 +2,8 @@
 title: "Updating the Home Page with Splash Layout"
 date: 2025-06-21T09:15:00-04:00
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
-  actions:
-    - label: "More Info"
-      url: "https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout"
+  image: /assets/images/posts/splash-header.png
+  teaser: /assets/images/posts/splash-teaser.png
 categories:
   - Static Site Generators
 tags:

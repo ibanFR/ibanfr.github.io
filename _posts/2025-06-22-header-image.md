@@ -2,7 +2,8 @@
 title: "Adding a Header Image to the Site"
 date: 2025-06-21T09:11:00-04:00
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/jekyll-header.png
+  teaser: /assets/images/posts/jekyll-teaser.png
 categories:
   - Static Site Generators
 tags:

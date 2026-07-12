@@ -2,7 +2,8 @@
 title: "Getting Started with Minimal Mistakes"
 date: 2025-04-19T15:34:30-04:00
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/jekyll-header.png
+  teaser: /assets/images/posts/jekyll-teaser.png
 categories:
   - Static Site Generators
 tags:
