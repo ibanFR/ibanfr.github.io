@@ -2,11 +2,7 @@
 title: "Building a Portfolio"
 date: 2025-06-21T09:16:00-04:00
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
-  actions:
-    - label: "More Info"
-      url: "https://mmistakes.github.io/minimal-mistakes/docs/collections/"
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Static Site Generators
 tags:

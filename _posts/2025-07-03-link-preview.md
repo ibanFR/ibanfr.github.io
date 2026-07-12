@@ -2,11 +2,7 @@
 title: "Adding Link Previews to your Jekyll Site"
 date: 2025-07-03
 header:
-  overlay_image: /assets/images/getxo-gorrondatxe.jpg
-  show_overlay_excerpt: false
-  actions:
-    - label: "More Info"
-      url: "https://github.com/ysk24ok/jekyll-linkpreview"
+  image: /assets/images/getxo-gorrondatxe-header.jpg
 categories:
   - Static Site Generators
 ---
