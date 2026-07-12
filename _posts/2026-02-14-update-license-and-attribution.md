@@ -2,7 +2,8 @@
 title: "Updating the License and Attribution of a GitHub Repository"
 date: 2026-02-14
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/github-header.png
+  teaser: /assets/images/posts/github-teaser.png
 categories:
   - Version Control
 tags:
