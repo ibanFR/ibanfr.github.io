@@ -4,6 +4,18 @@ so the theme's default `.page__hero-image` rendering (full width, natural
 aspect ratio) yields a consistent banner without a custom override.
 */
 
+/*
+Grid teasers (archive-single type="grid", e.g. the home page latest-posts grid)
+are capped at max-height 120px with overflow hidden and no object-fit, so a
+scaled image taller than the cap is clipped from the bottom (top-anchored).
+Center the crop instead of showing only the top.
+*/
+.grid__item .archive__item-teaser img {
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (max-width: 600px) {
   .page__hero--overlay .wrapper {
     max-width: 66%;
