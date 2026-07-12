@@ -51,7 +51,7 @@ posts_row:
 
 {% include feature_row id="posts_row" type="center" %}
 
-<div class="feature__wrapper">
+<div class="grid__wrapper">
     {% for post in site.posts limit: 4 %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
