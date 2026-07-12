@@ -2,7 +2,8 @@
 title: "Copying a GitHub Repository"
 date: 2026-01-20
 header:
-  image: /assets/images/getxo-gorrondatxe-header.jpg
+  image: /assets/images/posts/github-header.png
+  teaser: /assets/images/posts/github-teaser.png
 categories:
   - Version Control
 tags:
