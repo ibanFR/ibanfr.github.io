@@ -98,6 +98,7 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 ### Images
 
 - **`feature_row` / teaser images**: use **500 × 300 px (5:3 aspect ratio)** — the Minimal Mistakes recommended teaser size. Keep every image in a given `feature_row` at the same ratio so cards render uniformly.
+- **Post header images** (`header.image`): use **1280 × 427 px (3:1 aspect ratio)**. The theme renders `header.image` full-width at its natural ratio, so size the source file rather than adding custom CSS. When a post's header and teaser differ in ratio, use separate files (e.g. `-header` / `-teaser`).
 
 ## Safety rails
 

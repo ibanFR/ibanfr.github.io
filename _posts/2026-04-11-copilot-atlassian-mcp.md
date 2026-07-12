@@ -2,8 +2,8 @@
 title: Connecting Copilot with Jira using Atlassian Rovo MCP Server
 date: 2026-04-11
 header:
-  image: /assets/images/posts/atlassian-mcp.png
-  teaser: /assets/images/posts/atlassian-mcp.png
+  image: /assets/images/posts/atlassian-mcp-header.png
+  teaser: /assets/images/posts/atlassian-mcp-teaser.png
 categories:
   - AI
 tags:
