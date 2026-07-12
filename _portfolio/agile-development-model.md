@@ -1,7 +1,7 @@
 ---
 title: Agile Development Model
 header:
-    teaser: assets/images/agile/agile-containers.png
+    teaser: assets/images/agile/agile-containers-teaser.png
 order: 2
 ---
 

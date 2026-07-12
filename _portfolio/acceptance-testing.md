@@ -1,7 +1,7 @@
 ---
 title: Acceptance Testing with Cucumber
 header:
-    teaser: assets/images/cucumber.png
+    teaser: assets/images/cucumber-teaser.png
 order: 3
 ---
 

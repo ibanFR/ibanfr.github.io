@@ -1,7 +1,7 @@
 ---
 title: CI/CD with Feature Flags
 header:
-    teaser: assets/images/feature-flags.png
+    teaser: assets/images/feature-flags-teaser.png
 order: 6
 ---
 

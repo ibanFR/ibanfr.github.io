@@ -1,7 +1,7 @@
 ---
 title: Coding Katas
 header:
-    teaser: assets/images/code-kata.jpg
+    teaser: assets/images/code-kata-teaser.jpg
 order: 5
 ---
 
