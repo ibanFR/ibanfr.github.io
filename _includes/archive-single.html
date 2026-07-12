@@ -25,6 +25,6 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}{% assign excerpt_text = post.excerpt | markdownify | strip_html | strip %}<p class="archive__item-excerpt" itemprop="description">{{ excerpt_text | truncate: 160 }}{% if excerpt_text.size > 160 %} <a href="{{ post.url | relative_url }}">{{ site.data.ui-text[site.locale].read_more | default: "Read more…" }}</a>{% endif %}</p>{% endif %}
+    {% if post.excerpt %}{% assign excerpt_text = post.excerpt | markdownify | strip_html | strip %}<p class="archive__item-excerpt" itemprop="description">{{ excerpt_text | truncate: 160 }}{% if excerpt_text.size > 160 %} <a href="{{ post.url | relative_url }}">{{ site.data.ui-text[site.locale].read_more | default: "Read more" }}</a>{% endif %}</p>{% endif %}
   </article>
 </div>

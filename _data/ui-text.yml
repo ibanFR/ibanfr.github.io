@@ -1,0 +1,21 @@
+# UI text overrides for the Minimal Mistakes theme.
+#
+# Jekyll deep-merges this file over the theme gem's _data/ui-text.yml
+# (reader.rb: deep_merge_hashes(theme_data, site.data)), so you only need the
+# keys you want to change — every other string still comes from the theme.
+#
+# Keys are grouped by locale. The active locale is `site.locale` in _config.yml
+# (currently unset, so the theme falls back to `en`). Full key reference:
+# https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+
+en: &DEFAULT_EN
+  read_more: "Read more"
+
+en-US:
+  <<: *DEFAULT_EN
+
+es: &DEFAULT_ES
+  read_more: "Leer más"
+
+es-ES:
+  <<: *DEFAULT_ES
