@@ -43,23 +43,7 @@ posts_row:
     btn_class: "btn--primary"
     btn_label: "Read the posts"
 ---
-<style>
-.feature__item img,
-.archive__item img,
-.feature__wrapper img,
-.feature-row .archive__item-img,
-.feature-row .archive__item-image,
-.feature-row .archive__item .archive__item-img {
-  width:100%;
-  width: 398px;         /* or any fixed value, e.g., 100% for responsive */
-  height: 298px;        /* or any fixed value */
-  object-fit: cover;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-</style>
 
 {% include feature_row id="intro_row" type="center" %}
 
@@ -67,6 +51,8 @@ posts_row:
 
 {% include feature_row id="posts_row" type="center" %}
 
-{% for post in site.posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-{% endfor %}
+<div class="grid__wrapper">
+    {% for post in site.posts limit: 4 %}
+        {% include archive-single.html type="grid" %}
+    {% endfor %}
+</div>

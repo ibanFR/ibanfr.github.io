@@ -95,6 +95,10 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 - Headings in sentence case.
 - Prefer short paragraphs and bullet lists.
 
+### Images
+
+- **`feature_row` / teaser images**: use **500 × 300 px (5:3 aspect ratio)** — the Minimal Mistakes recommended teaser size. Keep every image in a given `feature_row` at the same ratio so cards render uniformly.
+
 ## Safety rails
 
 - **Never edit or commit files under `_site/`** — gitignored, generated at build time.
