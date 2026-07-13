@@ -12,31 +12,57 @@ tags:
 
 This post explains how to create an independent copy of a GitHub repository with no connection to the original repository.
 
-## Clone and push to a new repository
+## Clone the original repository
 
-To create an independent copy of a GitHub repository, you can follow these steps:
+Use the `git clone` command to clone the original repository to your local machine, then change into its directory:
 
-1. **Clone the original repository**: Use the `git clone` command to clone the original repository to your local machine.
+```shell
+git clone https://github.com/LearnWithLlew/TestingBetterWithApprovals.Java.git
+cd TestingBetterWithApprovals.Java
+```
 
-   ```shell
-   git clone https://github.com/LearnWithLlew/TestingBetterWithApprovals.Java.git
-   cd repo
-    ```
+## Remove the existing remote
 
-2. Remove the existing remote reference to the original repository:
+Remove the remote reference that points back to the original repository so future pushes don't reach it:
 
-   ```shell
-   git remote remove origin
-   ```
+```shell
+git remote remove origin
+```
 
-3. **Create a new repository on GitHub**: Go to GitHub and create a new repository. 
-4. **Add the new repository as a remote**: Use the `git remote add` command to add the new repository as a remote.
+## Delete the git history
 
-   ```shell
-   git remote add origin https://github.com/ibanFR/testing-better-with-approvals.git
-    ```
-5. **Push the code to the new repository**: Use the `git push` command to push the code to the new repository.
+To make the copy fully independent, delete the existing git history by removing the `.git` directory:
 
-    ```shell
-    git push -u origin main
-    ```
+```shell
+rm -rf .git
+```
+
+## Initialize a new repository
+
+Initialize a fresh git repository and create the first commit:
+
+```shell
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+## Create a new repository on GitHub
+
+Go to GitHub and create a new, empty repository. Do not initialize it with a README, `.gitignore`, or license so it stays empty and ready to receive your code.
+
+## Add the new repository as a remote
+
+Use the `git remote add` command to point your local repository at the new GitHub repository:
+
+```shell
+git remote add origin https://github.com/ibanFR/testing-better-with-approvals.git
+```
+
+## Push the code to the new repository
+
+Use the `git push` command to push the code to the new repository:
+
+```shell
+git push -u origin main
+```
