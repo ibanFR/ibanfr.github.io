@@ -39,13 +39,24 @@ rm -rf .git
 
 ## Initialize a new repository
 
-Initialize a fresh git repository and create the first commit:
+Initialize a fresh git repository so the code is tracked from a clean history:
 
 ```shell
 git init
+```
+
+## Create the initial commit
+
+Stage all the files and record them in a first commit:
+
+```shell
 git add .
 git commit -m "Initial commit"
 ```
+
+## Update the license and attribution
+
+Before publishing the copy, make sure you stay respectful of the original authors and compliant with the license terms — keep the original `LICENSE`, add your own copyright notice, and acknowledge the original project in your `README.md`. See [Updating the License and Attribution of a GitHub Repository]({% post_url 2026-02-14-update-license-and-attribution %}) for the practical steps.
 
 ## Create a new repository on GitHub
 
