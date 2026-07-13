@@ -68,9 +68,12 @@ The site is organized as **Jekyll collections**, one per topic, each declared in
 
 ## Content conventions
 
-### Front matter
+All content requires YAML front matter. Layout, sidebar, `toc`, and similar keys come from `_config.yml` `defaults` scoped by collection `type` — **don't repeat inherited keys per file**; set only what's specific to the page.
 
-All posts and collection pages require YAML front matter. Posts use:
+### Posts (`_posts/`)
+
+- Filename `_posts/YYYY-MM-DD-slug.md`, lowercase hyphenated slug.
+- Front matter:
 
 ```yaml
 ---
@@ -86,13 +89,21 @@ tags:
 ---
 ```
 
-Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml` `defaults` — don't repeat those per-file.
-
-### File naming and style
-
-- Posts: `_posts/YYYY-MM-DD-slug.md`, lowercase hyphenated slug.
 - Headings in sentence case.
 - Prefer short paragraphs and bullet lists.
+- `layout: single`, author profile, `toc`, comments, share, related, and the `posts` sidebar are inherited from defaults — don't repeat them.
+
+### Collections (`_guides/`, `_portfolio/`, `_bdd/`, `_ddd/`, `_xp/`, `_lean/`, `_coaching/`, `_scrum/`, `_architecture/`)
+
+- Each collection is declared in `_config.yml` and wired into `_data/navigation.yml` (see [Content architecture](#content-architecture)). Knowledge bases follow the Diátaxis subfolders.
+- **Content pages** typically need only `title:` — layout, sidebar, and `toc` are inherited from the collection's defaults.
+- **Collection index page** sets `layout: collection`, `collection: <name>`, `permalink:`, and `hidden: true`.
+- Guide index pages also use `header.teaser` and an `order:` for sorting.
+
+### Pages (`_pages/`)
+
+- One-off static pages (about, home, 404, portfolio index).
+- Minimal front matter — usually just `permalink:` and `title:`; `layout: single` is inherited.
 
 ### Images
 
