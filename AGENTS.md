@@ -121,7 +121,8 @@ tags:
 
 ## Commit convention
 
-**Read [.github/git-commit-instructions.md](.github/git-commit-instructions.md)** — it defines the commit message format for this repository.
+- **Read [.github/git-commit-instructions.md](.github/git-commit-instructions.md)** — it defines the commit message format for this repository.
+- **Before committing:** present the proposed commit message to the user and ask for confirmation to commit and push. Do not commit or push until they approve.
 
 ## Atlassian Rovo MCP
 
