@@ -77,8 +77,7 @@ All posts and collection pages require YAML front matter. Posts use:
 title: "Post Title"
 date: YYYY-MM-DD
 header:
-  overlay_image: /assets/images/<image>.jpg
-  show_overlay_excerpt: false
+  image: /assets/images/posts/<image>.jpg
 categories:
   - Category
 tags:
@@ -97,6 +96,7 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 
 ### Images
 
+- **Location**: post images go in **`/assets/images/posts/`**. Top-level `/assets/images/` is for site-wide assets only.
 - **`feature_row` / teaser images**: use **500 × 300 px (5:3 aspect ratio)** — the Minimal Mistakes recommended teaser size. Keep every image in a given `feature_row` at the same ratio so cards render uniformly.
 - **Post header images** (`header.image`): use **1280 × 320 px (4:1 aspect ratio)**. The theme renders `header.image` full-width at its natural ratio, so size the source file rather than adding custom CSS. When a post's header and teaser differ in ratio, use separate files (e.g. `-header` / `-teaser`).
 - **Overlay header images** (`header.overlay_image`): **no fixed aspect ratio** — the theme renders it as a `background-size: cover` layer whose height is driven by the overlay text, so it crops per page. Use a wide, centered landscape source **≥ 1280 px wide** (≈ 1600 × 600 works well); do not size these to a specific ratio.
