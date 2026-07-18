@@ -62,7 +62,7 @@ Created from https://github.com/LearnWithLlew/TestingBetterWithApprovals.Java by
 
 ## Create a new repository on GitHub
 
-Go to GitHub and create a new, empty repository. Do not initialize it with a README, `.gitignore`, or license so it stays empty and ready to receive your code.
+Follow GitHub's guide to [create a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository). Keep it empty — do not initialize it with a README, `.gitignore`, or license, so it stays ready to receive your code.
 
 ## Add the new repository as a remote
 
