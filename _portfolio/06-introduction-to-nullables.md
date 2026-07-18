@@ -2,14 +2,16 @@
 title: Introduction to Nullables Learning Hour
 header:
     teaser: assets/images/technical-coaching/samman_Submark_dark_blue_small-teaser.png
-order: 7
+order: 6
 ---
 
 Learn how to replace mocks with [Nullables] — a testing technique created by James Shore — for faster tests that support refactoring instead of hindering it.
 
 This Learning Hour was created by [Lada Kesseler] as part of the [Samman Technical Coaching](https://sammancoaching.org/) programme.
 
-I really enjoyed attending Lada's session, and I now use this Learning Hour to coach software development teams in Java and C#. I put together this adaptation to experiment with a few improvements of my own — without impacting Lada's original work. Thank you, Lada, for sharing it!
+I really enjoyed attending Lada's session, and I now use this Learning Hour to coach software development teams in Java and C#. 
+
+I put together this adaptation to experiment with a few improvements of my own — without impacting Lada's original work. Thank you, Lada, for sharing it!
 
 ## Why Nullables
 

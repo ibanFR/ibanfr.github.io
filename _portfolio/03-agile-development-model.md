@@ -2,7 +2,7 @@
 title: Agile Development Model
 header:
     teaser: assets/images/agile/agile-containers-teaser.png
-order: 2
+order: 3
 ---
 
 Dynamic and iterative approach to delivering product features in a rapid and flexible manner.

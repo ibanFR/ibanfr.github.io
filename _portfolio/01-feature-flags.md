@@ -2,7 +2,7 @@
 title: CI/CD with Feature Flags
 header:
     teaser: assets/images/feature-flags-teaser.png
-order: 6
+order: 1
 ---
 
 Demonstrate the use of feature flags in a Java enterprise application to enable dynamic, flexible feature 
