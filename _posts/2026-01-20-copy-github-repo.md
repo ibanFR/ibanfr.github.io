@@ -42,7 +42,7 @@ rm -rf .git
 Initialize a fresh git repository so the code is tracked from a clean history:
 
 ```shell
-git init
+git init -b main
 ```
 
 ## Update the license and attribution

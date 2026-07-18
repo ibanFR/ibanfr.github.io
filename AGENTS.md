@@ -75,19 +75,19 @@ All content requires YAML front matter. Layout, sidebar, `toc`, and similar keys
 - Filename `_posts/YYYY-MM-DD-slug.md`, lowercase hyphenated slug.
 - Front matter:
 
-```yaml
----
-title: "Post Title"
-date: YYYY-MM-DD
-header:
-  image: /assets/images/posts/<image>.jpg
-categories:
-  - Category
-tags:
-  - Tag One
-  - Tag Two
----
-```
+  ```yaml
+  ---
+  title: "Post Title"
+  date: YYYY-MM-DD
+  header:
+    image: /assets/images/posts/<image>.jpg
+  categories:
+    - Category
+  tags:
+    - Tag One
+    - Tag Two
+  ---
+  ```
 
 - Headings in sentence case.
 - Prefer short paragraphs and bullet lists.
