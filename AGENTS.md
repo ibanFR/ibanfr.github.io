@@ -68,35 +68,46 @@ The site is organized as **Jekyll collections**, one per topic, each declared in
 
 ## Content conventions
 
-### Front matter
+All content requires YAML front matter. Layout, sidebar, `toc`, and similar keys come from `_config.yml` `defaults` scoped by collection `type` — **don't repeat inherited keys per file**; set only what's specific to the page.
 
-All posts and collection pages require YAML front matter. Posts use:
+### Posts (`_posts/`)
 
-```yaml
----
-title: "Post Title"
-date: YYYY-MM-DD
-header:
-  overlay_image: /assets/images/<image>.jpg
-  show_overlay_excerpt: false
-categories:
-  - Category
-tags:
-  - Tag One
-  - Tag Two
----
-```
+- Filename `_posts/YYYY-MM-DD-slug.md`, lowercase hyphenated slug.
+- Front matter:
 
-Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml` `defaults` — don't repeat those per-file.
+  ```yaml
+  ---
+  title: "Post Title"
+  date: YYYY-MM-DD
+  header:
+    image: /assets/images/posts/<image>.jpg
+  categories:
+    - Category
+  tags:
+    - Tag One
+    - Tag Two
+  ---
+  ```
 
-### File naming and style
-
-- Posts: `_posts/YYYY-MM-DD-slug.md`, lowercase hyphenated slug.
 - Headings in sentence case.
 - Prefer short paragraphs and bullet lists.
+- `layout: single`, author profile, `toc`, comments, share, related, and the `posts` sidebar are inherited from defaults — don't repeat them.
+
+### Collections (`_guides/`, `_portfolio/`, `_bdd/`, `_ddd/`, `_xp/`, `_lean/`, `_coaching/`, `_scrum/`, `_architecture/`)
+
+- Each collection is declared in `_config.yml` and wired into `_data/navigation.yml` (see [Content architecture](#content-architecture)). Knowledge bases follow the Diátaxis subfolders.
+- **Content pages** typically need only `title:` — layout, sidebar, and `toc` are inherited from the collection's defaults.
+- **Collection index page** sets `layout: collection`, `collection: <name>`, `permalink:`, and `hidden: true`.
+- Guide index pages also use `header.teaser` and an `order:` for sorting.
+
+### Pages (`_pages/`)
+
+- One-off static pages (about, home, 404, portfolio index).
+- Minimal front matter — usually just `permalink:` and `title:`; `layout: single` is inherited.
 
 ### Images
 
+- **Location**: post images go in **`/assets/images/posts/`**. Top-level `/assets/images/` is for site-wide assets only.
 - **`feature_row` / teaser images**: use **500 × 300 px (5:3 aspect ratio)** — the Minimal Mistakes recommended teaser size. Keep every image in a given `feature_row` at the same ratio so cards render uniformly.
 - **Post header images** (`header.image`): use **1280 × 320 px (4:1 aspect ratio)**. The theme renders `header.image` full-width at its natural ratio, so size the source file rather than adding custom CSS. When a post's header and teaser differ in ratio, use separate files (e.g. `-header` / `-teaser`).
 - **Overlay header images** (`header.overlay_image`): **no fixed aspect ratio** — the theme renders it as a `background-size: cover` layer whose height is driven by the overlay text, so it crops per page. Use a wide, centered landscape source **≥ 1280 px wide** (≈ 1600 × 600 works well); do not size these to a specific ratio.
@@ -110,7 +121,8 @@ Collection pages inherit `layout`, `sidebar.nav`, `toc`, etc. from `_config.yml`
 
 ## Commit convention
 
-**Read [.github/git-commit-instructions.md](.github/git-commit-instructions.md)** — it defines the commit message format for this repository.
+- **Read [.github/git-commit-instructions.md](.github/git-commit-instructions.md)** — it defines the commit message format for this repository.
+- **Before committing:** present the proposed commit message to the user and ask for confirmation to commit and push. Do not commit or push until they approve.
 
 ## Atlassian Rovo MCP
 
