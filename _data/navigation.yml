@@ -23,6 +23,8 @@ bdd:
     children:
       - title: "User Stories"
         url: /bdd/explanation/story/
+      - title: "User Story Mapping"
+        url: /bdd/explanation/user-story-mapping/
       - title: "Discovery"
         url: /bdd/explanation/discovery/
       - title: "Formulation"
