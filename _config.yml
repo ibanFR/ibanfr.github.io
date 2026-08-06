@@ -23,7 +23,6 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
-teaser: "/assets/images/getxo-gorrondatxe.jpg" # default teaser image for the site
 
 # Build settings
 markdown: kramdown
