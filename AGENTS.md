@@ -105,6 +105,24 @@ All content requires YAML front matter. Layout, sidebar, `toc`, and similar keys
 - One-off static pages (about, home, 404, portfolio index).
 - Minimal front matter — usually just `permalink:` and `title:`; `layout: single` is inherited.
 
+### Quotes and citations
+
+Attribute every quotation to its author, using `<cite>` **inside** the blockquote — never as a paragraph after it. The theme styles `blockquote cite` and prefixes it with an em-dash, so a trailing `— Author` line renders as ordinary body copy instead.
+
+```markdown
+> Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure
+> without changing its external behavior.
+>
+> <cite>Martin Fowler on his site [Refactoring]</cite>
+```
+
+- Separate quote and citation with a blank `>` line — kramdown then renders the citation as its own `<p>` inside the blockquote.
+- Give the author's **full name** on first mention (`Jeff Patton`, not `Patton`).
+- Link the **source** from inside the `<cite>`, reference-style, with the definition at the bottom of the file. Link the work or page, not the author's name.
+- Phrasing follows the source type: `<cite>{Author} on his site [{Page}]</cite>` for a web page, `<cite>[{Book Title}] by {Authors}</cite>` for a book.
+- Existing examples to match: `_xp/explanation/refactoring.md`, `_coaching/explanation/coaching-goodreads.md`, `_bdd/explanation/user-story-mapping.md`.
+- Quote only sources you have verified. Prefer the primary source (the author's own site or book) over a blog repeating it.
+
 ### Images
 
 - **Location**: post images go in **`/assets/images/posts/`**. Top-level `/assets/images/` is for site-wide assets only.

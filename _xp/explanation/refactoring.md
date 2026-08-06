@@ -5,7 +5,7 @@ title: Refactoring
 > Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure
 > without changing its external behavior.
 >
-> <cite>Martin Fowler in his site [Refactoring]</cite>
+> <cite>Martin Fowler on his site [Refactoring]</cite>
 
 ## Code Smells
 

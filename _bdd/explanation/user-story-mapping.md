@@ -62,8 +62,8 @@ incomplete knowledge:
 > A user story map arranges user stories into a useful model to help understand the functionality of the system,
 > **identify holes and omissions in your backlog**, and effectively plan holistic releases that deliver value to users
 > and business with each release.
-
-— Patton, on his own [User Story Mapping page][Patton USM].
+>
+> <cite>Jeff Patton on his site [User Story Mapping][Patton USM]</cite>
 
 {% linkpreview "https://jpattonassociates.com/the-new-backlog/" %}
 
