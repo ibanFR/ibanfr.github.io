@@ -19,21 +19,29 @@ Personal technical blog and knowledge base for Iván Fernández (Software Engine
 ```bash
 bundle install                         # install gems
 bundle exec jekyll serve               # local dev server at http://127.0.0.1:4000
-bundle exec jekyll serve --trace 2>&1  # verify build (see below)
+bundle exec jekyll build --trace 2>&1  # verify build (see below)
 bundle exec jekyll build               # one-off build into _site/
 ```
 
 ## Verify before committing
 
-Start the dev server and confirm it builds cleanly:
+Build once — don't start the dev server. `jekyll build` exits on its own, no `Ctrl+C` needed:
 
 ```bash
-bundle exec jekyll serve --trace 2>&1
+bundle exec jekyll build --trace > /tmp/jekyll-build.log 2>&1; echo "exit=$?"
+grep -E "^\s*(Error|Liquid Exception)" /tmp/jekyll-build.log
 ```
 
-- Wait for `Server address: http://127.0.0.1:4000` to confirm success, then stop with `Ctrl+C`.
-- If the build fails, read the full error output and fix the root cause before proceeding.
-- The build emits ~230 Sass slash-division deprecation warnings from the upstream `minimal-mistakes-jekyll` gem. These are expected, safe to ignore, and cannot be fixed here.
+Check both, because one is not enough:
+
+- **`exit=0`.** Non-zero means a fatal error, usually a Liquid tag.
+- **No grep match.** Malformed YAML front matter prints `Error: YAML Exception reading <file>` and still exits `0`, silently dropping the page's front matter.
+
+Fix the root cause before proceeding.
+
+Sass slash-division deprecation warnings (~230) come from the upstream `minimal-mistakes-jekyll` gem. Expected, ignore them.
+
+Start the dev server only to *look* at a page in a browser. To check rendered output, grep `_site/` instead.
 
 ## Deployment
 
